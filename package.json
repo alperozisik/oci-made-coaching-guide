@@ -1,0 +1,27 @@
+{
+  "name": "oci-made-coaching-guide",
+  "version": "1.0.0",
+  "description": "Oracle OCI M.A.D.E. Coaching Guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build:Web": "webpack --env BUILD_MODE=Web",
+    "build:Single": "webpack --env BUILD_MODE=Single",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperozisik/oci-made-coaching-guide.git"
+  },
+  "keywords": [
+    "oci",
+    "guide",
+    "made"
+  ],
+  "author": "Alper Ozisik <alper.ozisik@oracle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alperozisik/oci-made-coaching-guide/issues"
+  },
+  "homepage": "https://github.com/alperozisik/oci-made-coaching-guide#readme"
+}
