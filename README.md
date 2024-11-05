@@ -53,12 +53,12 @@ The project supports two different build modes using Webpack:
 
 Contributions are welcome! Please follow these steps:
 
-	1.	**Fork the repository**.
-	2.	**Create a new branch** for your feature or bug fix:
-        ```bash
-        git checkout -b feature/your-feature
-        ```
-    3. **Commit your changes** and open a pull request. 
+1.	**Fork the repository**
+2.	**Create a new branch** for your feature or bug fix:
+       ```bash
+       git checkout -b feature/your-feature
+       ```
+3. **Commit your changes** and open a pull request. 
 
 ## License
 This project is licensed under the MIT License.
