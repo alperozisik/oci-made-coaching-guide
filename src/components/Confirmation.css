@@ -1,0 +1,70 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.confirmation-icon {
+    width: 150px;
+    margin-bottom: 20px;
+    float: left; /* Aligns the icon to the left */
+}
+
+.confirmation-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.confirmation-text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.confirmation-buttons {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proceed-button,
+.back-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.proceed-button:hover,
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.triangle-right,
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.triangle-right {
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    margin-left: 10px;
+}
+
+.triangle-left {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    margin-right: 10px;
+}

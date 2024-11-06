@@ -37,7 +37,9 @@ journey:
           title: Have you completed Oracle Artificial Intelligence 2024 Sales Specialist certification?
           proceedButton: Yes
           backButton: No
-          text: OCI AI Sales Specialist certification is contains key information about Oracle's AI offerings and how they can be used to solve customer problems. It is recommended that you complete this certification before proceeding with the guide.
+          text: |
+            OCI AI Sales Specialist certification is contains key information about Oracle's AI offerings and how they can be used to solve customer problems. It is recommended that you complete this certification before proceeding with the guide.
+            Please check ${link:719} for more information.
     - persona: Pre-Sales / Architect
       flow:
         - step: Persona Explanation
