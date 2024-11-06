@@ -1,18 +1,23 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { parseJourney } from './utils/journeyParser';
+import journeyData from './journey.yaml';
+import Navigation from './components/Navigation';
 
 const App = () => {
     const dispatch = useDispatch();
-    const currentComponent = useSelector(state => state.navigation.currentComponent);
 
-    const handleNavigate = (componentName) => {
-        dispatch({ type: 'PUSH_COMPONENT', payload: componentName });
-    };
+    useEffect(() => {
+        // Parse the initial journey step and set the first component
+        const initialJourney = parseJourney(journeyData, { personaId: null, topic: null });
+        if (initialJourney.length > 0) {
+            dispatch({ type: 'PUSH_COMPONENT', payload: initialJourney[0].component });
+        }
+    }, [dispatch]);
 
     return (
-        <div>
-            <h1>Current Component: {currentComponent}</h1>
-            <button onClick={() => handleNavigate('NextComponent')}>Go to Next</button>
+        <div className="app-container">
+            <Navigation />
         </div>
     );
 };

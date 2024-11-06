@@ -1,5 +1,5 @@
 const initialState = {
-    history: [], // Holds the navigation stack
+    history: [],
     currentComponent: null,
 };
 
@@ -12,10 +12,11 @@ const navigationReducer = (state = initialState, action) => {
                 currentComponent: action.payload,
             };
         case 'POP_COMPONENT':
+            const newHistory = state.history.slice(0, -1);
             return {
                 ...state,
-                history: state.history.slice(0, -1),
-                currentComponent: state.history[state.history.length - 2] || null,
+                history: newHistory,
+                currentComponent: newHistory[newHistory.length - 1] || null,
             };
         default:
             return state;

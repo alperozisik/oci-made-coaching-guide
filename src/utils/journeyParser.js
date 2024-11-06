@@ -1,6 +1,6 @@
 import React from 'react';
 import guide from '../guide.json';
-import Link from '../components/Link'; 
+import Link from '../components/Link';
 /**
  * Parses the journey YAML and merges the default and exception flows based on step names.
  * Steps with the same name are merged, with properties from the exception flow taking priority.
@@ -52,6 +52,39 @@ const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow) => {
 };
 
 /**
+ * Checks if the exception condition is valid or if it's undefined.
+ * @param {string|undefined} condition - The condition to be evaluated.
+ * @param {Object} userSelection - The current user selection state.
+ * @returns {boolean} - True if the condition is valid or not defined.
+ */
+const isConditionMet = (condition, userSelection) => {
+    if (!condition) {
+        // If the condition is not defined, return true (always valid)
+        return true;
+    }
+    try {
+        // Evaluate the condition with userSelection as the context
+        
+        var conditionCode = condition.replace(/\${(\w+)}/g, function (_, key) {
+            let value = userSelection[key];
+            if(value === null)
+              return "null";
+            else if(typeof value === "undefined")
+              return "undefined";
+            else if(typeof value === "string" && value.length === 0)
+              return '""';
+            else
+              return "" + value;
+          });
+        const result =  eval(conditionCode);
+        return result;
+    } catch (error) {
+        console.error("Error evaluating condition:", error);
+        return false;
+    }
+};
+
+/**
  * Parses the journey data from a provided source (e.g., YAML) and generates
  * the flow to be used in the application.
  * 
@@ -60,11 +93,16 @@ const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow) => {
  * @returns {Array} - The final journey flow after merging defaults and exceptions.
  */
 export const parseJourney = (journeyData, userSelection) => {
+    if (!journeyData || !journeyData.default) {
+        console.error("Journey data is not properly loaded or formatted.");
+        return [];
+    }
+
     const { default: defaultFlow, exceptions } = journeyData;
 
     // Check if there is a matching exception for the current user selection
     const matchingException = exceptions.find(exception =>
-        eval(exception.condition.replace(/\${(\w+)}/g, (_, key) => userSelection[key] || ""))
+        isConditionMet(exception.condition, userSelection)
     );
 
     if (matchingException) {
