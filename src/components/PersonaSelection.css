@@ -1,0 +1,98 @@
+.persona-selection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+}
+
+.persona-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+}
+
+.star-wrapper {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-square {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.inner-square {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    transform: rotate(45deg);
+}
+
+.persona-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100px;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+/* Persona icons */
+.persona-icon {
+    width: 96px;
+    height: 96px;
+    margin-bottom: -0.5rem;
+}
+
+/* Circular positioning for each persona item */
+.persona-1 { top: 80px; left: 50%; transform: translate(-50%, -100%); }
+.persona-2 { top: 20%; right: 70px; transform: translate(50%, -50%); }
+.persona-3 { top: 50%; right: 30px; transform: translate(50%, -50%); }
+.persona-4 { bottom: 20%; right: 70px; transform: translate(50%, 50%); }
+.persona-5 { bottom: 80px; left: 50%; transform: translate(-50%, 100%); }
+.persona-6 { bottom: 20%; left: 70px; transform: translate(-50%, 50%); }
+.persona-7 { top: 50%; left: 30px; transform: translate(-50%, -50%); }
+.persona-8 { top: 20%; left: 70px; transform: translate(-50%, -50%); }
+
+/* Center-align text within buttons */
+.persona-item p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+    margin: 0;
+}

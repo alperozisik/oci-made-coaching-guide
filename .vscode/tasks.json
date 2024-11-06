@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start", // Task name referenced in launch.json
+            "type": "npm",
+            "script": "start",
+            "isBackground": true, // Indicates this task runs in the background
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": [
+                    {
+                        "regexp": ".", // Match any line of output to prevent errors in parsing
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ],
+                "background": {
+                    "activeOnStart": true, // Start listening immediately
+                    "beginsPattern": "Starting", // Pattern when Webpack starts
+                    "endsPattern": "Compiled successfully" // Pattern indicating Webpack is ready
+                }
+            },
+            "detail": "webpack serve --mode development --port 3100",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

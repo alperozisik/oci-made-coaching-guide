@@ -1,4 +1,34 @@
+# Node Modules
 node_modules/
+
+# Log files
 *.log
+
+# Build directories
 dist/
 build/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnail files
+Icon?
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows file backups
+*.bak
+
+# Temporary Files
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+*.save

@@ -1,0 +1,52 @@
+/* Reset margins and padding for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling for application title */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* General styling for the main content area */
+main {
+    padding: 20px;
+}
+
+/* Styles for each step section */
+.step {
+    margin-top: 20px;
+}
+
+/* Hidden class for elements not currently displayed */
+.hidden {
+    display: none;
+}
+
+/* Styling for buttons in persona and topic selections */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Breadcrumb styling */
+#breadcrumb {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}

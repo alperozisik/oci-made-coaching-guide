@@ -1,0 +1,2656 @@
+{
+  "links": [
+    {
+      "id": 5,
+      "name": "Data Management 2023 Sales Specialist",
+      "url": "https://learn.oracle.com/ols/learning-path/data-management-2023-sales-specialist/89350/113759",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-11 21:46:32",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 11,
+      "name": "Oracle Cloud Infrastructure 2023 Enterprise Analytics Professional",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-analytics-expert-2023/121750",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-11 21:51:33",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 44,
+      "name": "MySQL HeatWave Implementation Associate",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-mysql-heatwave-implementation-associate/128102",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 55,
+      "name": "Oracle APEX Developer Professional - 2023",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-apex-developer-professional-2023/121230",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 56,
+      "name": "Oracle Cloud Essentials",
+      "url": "https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 58,
+      "name": "Data Management for Sales - Strategy and Messaging",
+      "url": "https://learn.oracle.com/ols/course/data-management-strategy-and-messaging/89350/90439",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 59,
+      "name": "Database Options for Sales",
+      "url": "https://learn.oracle.com/ols/course/business-challenges/89350/94271",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 61,
+      "name": "Delivering Data Virtualization 2024 Overview-24mins",
+      "url": "https://learn.oracle.com/ols/learning-path/delivering-data-virtualization-2024-overview/89350/131596",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 64,
+      "name": "OCI Data Integration Overview-10mins",
+      "url": "https://mylearn.oracle.com/ou/course/oci-data-integration-overview/125219/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 65,
+      "name": "OCI Data Catalog Overview-10mins",
+      "url": "https://mylearn.oracle.com/ou/course/-/125197/194949",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 66,
+      "name": "Oracle Autonomous Database Administration Workshop",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-autonomous-database-administration-workshop/122208/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 73,
+      "name": "Oracle Database Consolidation Sales Person-34mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-database-consolidation-sales-person/89350/112913",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 74,
+      "name": "Oracle Autonomous Database 2023 Sales Specialist +2hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-autonomous-database-2023-sales-person/89350/94589",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 75,
+      "name": "MySQL 2023 Sales Specialist +2hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/mysql-2023-sales-specialist/89350/111249",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 76,
+      "name": "Oracle Master Data Management Specialist",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-master-data-management-specialist/89350/93545",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 77,
+      "name": "Oracle Autonomous and Exadata Database Services +10hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-autonomous-and-exadata-database-services-oracle-partner-technical-forum-2022/89350/106153",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 78,
+      "name": "Winning New Customers with Oracle Data Management-55mins",
+      "url": "https://learn.oracle.com/ols/course/winning-new-customers-with-oracle-data-management/89350/96763",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 79,
+      "name": "Data management Market Trends and Drivers-25min",
+      "url": "https://learn.oracle.com/ols/course/data-management-market-trends-and-drivers/89350/90456",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 80,
+      "name": "Oracle Cloud Infrastructure Data Science Overview-45mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-data-science-overview/89350/92878",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 81,
+      "name": "APEX + AI",
+      "url": "https://apex.oracle.com/en/platform/ai/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 83,
+      "name": "MySQL HeatWave: Implementation +2hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/mysql-heatwave-implementation/101969",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 84,
+      "name": "MySQL HeatWave: In-Database Machine Learning with AutoML +3hrs",
+      "url": "https://mylearn.oracle.com/ou/course/mysql-heatwave-in-database-machine-learning-with-automl/128794/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 86,
+      "name": "Migrating Your Data to MySQL Database Service +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/migrating-your-data-to-mysql-database-service/123203/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 87,
+      "name": "MySQL HeatWave Database Service: Implementation / Deployment +6hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/mysql-heatwave-database-service-implementation-deployment/84861",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 89,
+      "name": "What's New in Exadata Database Service X10M-17mins",
+      "url": "https://mylearn.oracle.com/ou/course/whats-new-in-exadata-database-service-x10m/127815/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 90,
+      "name": "Oracle Database +5hrs",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-database/124924/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 91,
+      "name": "Exadata Database Service Deep Dive Workshop +6hr",
+      "url": "https://mylearn.oracle.com/ou/course/exadata-database-service-deep-dive-workshop/121072/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 92,
+      "name": "Data Modelling and Design +6hrs",
+      "url": "https://mylearn.oracle.com/ou/course/data-modelling-and-design/91015/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 105,
+      "name": "Become A Big Data Administrator On OCI +1hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-big-data-administrator-on-oci/82899",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 106,
+      "name": "Architecting Analytical Data Platform- 52mins",
+      "url": "https://www.youtube.com/watch?v=-rmusvrxyw4",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 107,
+      "name": "Understanding the Analytics Team Lead- 20min",
+      "url": "https://learn.oracle.com/ols/course/understanding-the-analytics-team-lead/89350/95416",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 108,
+      "name": "Lab - Autonomous Database - Use Machine Learning",
+      "url": "https://learn.oracle.com/ols/journey/lab-autonomous-database-use-machine-learning/89350/112923",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 112,
+      "name": "Python for Data Analytics and Machine Learning +4hrs",
+      "url": "https://mylearn.oracle.com/ou/course/python-for-data-analytics-and-machine-learning/92265/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 113,
+      "name": "Advanced Analytics With Machine Learning +6hr",
+      "url": "https://mylearn.oracle.com/ou/course/advanced-analytics-with-machine-learning/96184/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 118,
+      "name": "Using Oracle Machine Learning with Autonomous Database-1hr40min",
+      "url": "https://mylearn.oracle.com/ou/course/using-oracle-machine-learning-with-autonomous-database/119953/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 119,
+      "name": "Oracle Machine Learning for Oracle Machine Learning for R +6hr",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-machine-learning-for-r/100384/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 120,
+      "name": "Oracle Machine Learning on Oracle Cloud Using Python +4hr ",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-machine-learning-on-oracle-cloud-using-python/98724/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 129,
+      "name": "MySQL Heatwave Migration 2023 Solution Engineer Specialist",
+      "url": "https://learn.oracle.com/ols/learning-path/mysql-heatwave-migration-2023-solution-engineer-specialist/89350/118375",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 130,
+      "name": "MySQL 2023 Solution Engineer Specialist ",
+      "url": "https://learn.oracle.com/ols/learning-path/mysql-2023-solution-engineer-specialist/89350/113723",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 131,
+      "name": "Oracle Autonomous Transaction Processing 2023 Overview  (20mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-autonomous-transaction-processing-2023-overview/89350/114514",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 132,
+      "name": "Oracle Autonomous Database 2023 Solution Engineer  (+2hrs)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-autonomous-database-2023-solution-engineer-specialist/89350/94536",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 133,
+      "name": "Oracle Enterprise Manager 2023 Overview ",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-enterprise-manager-2023-overview/89350/122884",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 134,
+      "name": "Oracle Exadata X8 Foundation for Cloud On-Premises and Autonomous ",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-exadata-x8-foundation-for-cloud-on-premises-and-autonomous-databases/89350/94670",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 135,
+      "name": "Cloud Architecture Selection for Solution Engineer - Data Management-1hr",
+      "url": "https://learn.oracle.com/ols/course/cloud-architecture-selection-for-solution-engineer-data-management/89350/94855",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 138,
+      "name": "Delivering Data Virtualization 2024 Solution Engineer-32mins",
+      "url": "https://learn.oracle.com/ols/learning-path/delivering-data-virtualization-2024-solution-engineer/89350/132811",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 150,
+      "name": "Oracle PartnerCast: Oracle APEX in Oracle Cloud on Autonomous Database Replay-1hr",
+      "url": "https://learn.oracle.com/ols/module/oracle-partnercast-oracle-apex-in-oracle-cloud-on-autonomous-database-replay/89350/114812",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 152,
+      "name": "Build Web Apps using Oracle Autonomous Database and APEX - Workshop +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/build-web-apps-using-oracle-autonomous-database-and-apex-workshop/106572/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 154,
+      "name": "Changing Role of a DBA and Developers with Machine Learning (New)-38Mins",
+      "url": "https://mylearn.oracle.com/ou/course/changing-role-of-a-dba-and-developers-with-machine-learning-new/64278/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 155,
+      "name": "Understanding Oracle Database and JSON Integration-45mins",
+      "url": "https://mylearn.oracle.com/ou/learning-path/understanding-oracle-database-and-json-integration/127231",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 156,
+      "name": "Getting Started with Graph Analytics +1hr",
+      "url": "https://www.youtube.com/watch?v=b0jkhxvtbtk",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 157,
+      "name": "Master Graph Databases with Oracle Graph-11mins",
+      "url": "https://mylearn.oracle.com/ou/learning-path/master-graph-databases-with-oracle-graph/127240",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 158,
+      "name": "Fraud and Anomaly Detection using Oracle ADB and OML-58mins",
+      "url": "https://mylearn.oracle.com/ou/course/fraud-and-anomaly-detection-using-oracle-adb-and-oml/64293/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 162,
+      "name": "Cloud Coaching - Oracle Autonomous Database for Rust Developers +1hr",
+      "url": "https://www.youtube.com/watch?v=u4dalemu9c0",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 169,
+      "name": "Data, Applications, and Infrastructure Security with Oracle +1hr",
+      "url": "https://learn.oracle.com/ols/course/data-applications-and-infrastructure-security-with-oracle/89350/106199",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 170,
+      "name": "Database Security - Maximum Security Architecture-56mins",
+      "url": "https://learn.oracle.com/ols/course/database-security-maximum-security-architecture/89350/106196",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 171,
+      "name": "Oracle PartnerCast: Database Security Office Hours February 2023 Replay-1hr",
+      "url": "https://learn.oracle.com/ols/module/oracle-partnercast-database-security-office-hours-february-2023-replay/89350/117507",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 176,
+      "name": "Data Management - Delivering Operational Efficiency-33min",
+      "url": "https://learn.oracle.com/ols/course/data-management-delivering-operational-efficiency/89350/113269",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 192,
+      "name": "Oracle Analytics 2023 Sales Specialist 20min",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-analytics-2023-sales-specialist/89350/115502",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 193,
+      "name": "Oracle Fusion Analytics (FAW) 2023 Sales Specialist +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-fusion-analytics-faw-2023-sales-specialist/89350/113267",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 195,
+      "name": "Oracle Cloud Fusion Analytics Warehouse 2023 Implementation Professional+3hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-fusion-analytics-warehouse-professional/121290",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 199,
+      "name": "Oracle Analytics 2024 Solution Engineer Specialist-25mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-analytics-2024-solution-engineer-specialist/89350/125041",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 209,
+      "name": "Getting Started with Oracle Analytics",
+      "url": "https://luna.oracle.com/lab/a1fc2175-9720-4345-8cb8-c0270a08c9d1",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 211,
+      "name": "Getting Started with Oracle Analytics Cloud for Sales-25mins",
+      "url": "https://learn.oracle.com/ols/course/getting-started-with-oracle-analytics-cloud-for-sales/89350/91672/133315",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 212,
+      "name": "Oracle Analytics Mobile 2024 Overview-15mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-analytics-mobile-2024-overview/89350/127369",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 213,
+      "name": "Oracle Analytics Server Overview-30mins",
+      "url": "https://learn.oracle.com/ols/course/oracle-analytics-server-overview/89350/94835",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 217,
+      "name": "What's New In Oracle Analytics Cloud +2hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/whats-new-in-oracle-analytics-cloud/87124",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 218,
+      "name": "Business Intelligence Analytics Explorer 45mins",
+      "url": "https://mylearn.oracle.com/ou/learning-path/business-intelligence-analytics-explorer/80201",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 237,
+      "name": "Best Practices for implementing Analytics Cloud 30min",
+      "url": "https://mylearn.oracle.com/ou/course/best-practices-for-implementing-analytics-cloud/78341/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 243,
+      "name": "Analytics - Selling ADW with ML Driven Analytics 20min",
+      "url": "https://learn.oracle.com/ols/learning-path/analytics-selling-adw-with-ml-driven-analytics/89350/94807",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 244,
+      "name": "Self Service Analytics",
+      "url": "https://luna.oracle.com/lab/9383d070-fb28-4010-a247-92cadb3cdbb9",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 247,
+      "name": "Oracle Analytics 2024 - Install Base Modernization-30mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-analytics-2024-install-base-modernization/89350/131070",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 248,
+      "name": "Oracle Analytics 2024 Customer Wins-12mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-analytics-2024-customer-wins/89350/129720",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 252,
+      "name": "Oracle Analytics Cloud Business User Sessions +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-analytics-cloud-business-user-sessions/111677/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 253,
+      "name": "Solution Engineering Office Hours: How to position Analytics Cloud in your opportunities 1hr",
+      "url": "https://learn.oracle.com/ols/course/solution-engineering-office-hours-how-to-position-analytics-cloud-in-your-opportunities/89350/118447",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 258,
+      "name": "Predictive Analytics using Oracle Data Mining +8hr",
+      "url": "https://mylearn.oracle.com/ou/course/predictive-analytics-using-oracle-data-mining/42850/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 259,
+      "name": "Enhanced Visual Analysis with Data Visualization +7hrs",
+      "url": "https://mylearn.oracle.com/ou/course/enhanced-visual-analysis-with-data-visualization/92322/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 261,
+      "name": "Fusion Analytics Warehouse Business User Sessions+1hr",
+      "url": "https://mylearn.oracle.com/ou/course/fusion-analytics-warehouse-business-user-sessions/116208/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 269,
+      "name": "Modern Data Visualization with Augmented Analytics +4hr",
+      "url": "https://mylearn.oracle.com/ou/course/modern-data-visualization-with-augmented-analytics/95862/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 281,
+      "name": "Drive Innovation with AI Powered Analytics +45mins",
+      "url": "https://learn.oracle.com/ols/course/drive-innovation-with-ai-powered-analytics/89350/109691",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 283,
+      "name": "Oracle PartnerCast: OAS and OAC Implementation and Security Tips Replay +1hr",
+      "url": "https://learn.oracle.com/ols/course/oracle-partnercast-oas-and-oac-implementation-and-security-tips-replay/89350/110560",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 285,
+      "name": "Cloud Coaching - On-premise Oracle Analytics Solutions migration to OCI-59mins",
+      "url": "https://www.youtube.com/watch?v=i0djloazxnu",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 300,
+      "name": "CIC",
+      "url": "https://community.oracle.com/partners/emea/group/5937-oracle-cloud-innovators-club",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 301,
+      "name": "Oracle Cloud Infrastructure 2023 Sales Specialist",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-2023-sales-specialist/89350/111480",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 302,
+      "name": "Oracle Integration Cloud 2024 Sales Specialist-40mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-integration-cloud-2024-sales-specialist/89350/124953",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 303,
+      "name": "O",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-goldengate-2022-sales-person/89350/106614",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 304,
+      "name": "Oracle GoldenGate 2024 Sales Specialist+1hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-goldengate-2024-sales-specialist/89350/129048",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 306,
+      "name": "Oracle Cloud Infrastructure 2023 Solution Engineer Specialist +2hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-2023-solution-engineer-specialist/89350/111537",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 307,
+      "name": "Oracle Integration Cloud 2024 Solution Engineer Specialist +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-integration-cloud-2022-solution-engineer-specialist/89350/93737",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 308,
+      "name": "Oracle GoldenGate 2022 Solution Engineer Specialist",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-goldengate-2022-solution-engineer-specialist/89350/107388",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 311,
+      "name": "Oracle Cloud Platform 2023 App Integration professional",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-application-integration-professional-2023/122249",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 325,
+      "name": "\nOIC Strategy and Messaging-20min",
+      "url": "https://learn.oracle.com/ols/course/oic-strategy-and-messaging/89350/98780",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 326,
+      "name": "Oracle Application and Data Integration 2023 Strategy Overview-30mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-application-and-data-integration-2023-strategy-overview/89350/116607",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 327,
+      "name": "Oracle Application Integration: References and Resources-10 min",
+      "url": "https://learn.oracle.com/ols/course/oracle-application-integration-references-and-resources/89350/91629/133285",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 328,
+      "name": "Application Integration : Level 2 +1hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/application-integration-level-2/124077",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 329,
+      "name": "Oracle GoldenGate 2024 Overview-20mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-goldengate-2024-overview/89350/128772",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 340,
+      "name": "Oracle integration and Data Strategy-30mins",
+      "url": "https://learn.oracle.com/ols/course/oracle-application-and-data-integration-strategy/89350/116608",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 342,
+      "name": "What's New in OCI Data Integration-26mins",
+      "url": "https://mylearn.oracle.com/ou/course/whats-new-in-oci-data-integration/89845/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 343,
+      "name": "Real-Time Analytics and Monitoring using Oracle Integration Cloud +2hr",
+      "url": "https://mylearn.oracle.com/ou/course/real-time-analytics-and-monitoring-using-oracle-integration-cloud/97736/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 344,
+      "name": "Serverless ETL using OCI Data Integration +4hrs",
+      "url": "https://mylearn.oracle.com/ou/course/serverless-etl-using-oci-data-integration/84787/https:/mylearn.oracle.com/ou/course/serverless-etl-using-oci-data-integration/84787/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 345,
+      "name": "Integration and Configuration Key Concepts",
+      "url": "https://learn.oracle.com/ols/course/integration-and-configuration-key-concepts/89350/126259",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 346,
+      "name": "OCI GoldenGate Workshop +3hrs",
+      "url": "https://mylearn.oracle.com/ou/course/oci-goldengate-workshop-ed-2/131575",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 354,
+      "name": "Cloud Coaching: New Features in Oracle Integration Cloud Gen 3 - Parallel Tasks and Projects-48mins",
+      "url": "https://www.youtube.com/watch?v=lqkmcn4rakg",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 355,
+      "name": "Oracle Application Integration: Technical Features and Architecture 1hr",
+      "url": "https://learn.oracle.com/ols/course/oracle-application-integration-technical-features-and-architecture/89350/91704",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 367,
+      "name": "Implementation Approach for Cloud Integrations",
+      "url": "https://learn.oracle.com/ols/course/module-10-implementation-approach-for-cloud-integrations/89350/91813",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:43",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 377,
+      "name": "Application Integration on Oracle Cloud+16hr",
+      "url": "https://mylearn.oracle.com/ou/course/application-integration-on-oracle-cloud/122251/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 379,
+      "name": "What's New In Integration Cloud",
+      "url": "https://mylearn.oracle.com/ou/learning-path/whats-new-in-integration-cloud/86982",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 381,
+      "name": "Rapid Development of SOA Applications using SOA Suite on OCI Marketplace +3hr",
+      "url": "https://mylearn.oracle.com/ou/course/rapid-development-of-soa-applications-using-soa-suite-on-oci-marketplace/98607/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 389,
+      "name": "Oracle APEX: Foundations",
+      "url": "https://mylearn.oracle.com/ou/learning-path/oracle-apex-foundations/112444",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 390,
+      "name": "Oracle Cloud Infrastructure 2023 AI Foundations Associate",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-ai-foundations-associate-2023/127177",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 392,
+      "name": "Oracle Digital Assistant Platform 2022 Solution Engineer Specialist 50min",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-digital-assistant-platform-2022-solution-engineer-specialist/89350/99513",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 393,
+      "name": "Build Cloud Native Apps 2022 Solution Engineer 30mins",
+      "url": "https://learn.oracle.com/ols/learning-path/build-cloud-native-apps-2022-solution-engineer/89350/104330",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 394,
+      "name": "Developing Applications with Oracle APIs 2024 Solution Engineer Specialist 45mins",
+      "url": "https://learn.oracle.com/ols/learning-path/developing-applications-with-oracle-apis-2024-solution-engineer-specialist/89350/126456",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 397,
+      "name": "Oracle Artificial Intelligence 2024 Sales Specialist 45mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-artificial-intelligence-2024-sales-specialist/89350/123275",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 398,
+      "name": "Oracle AI Services 2024 Sales Specialist-30mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-ai-services-2024-sales-specialist/89350/133655",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 399,
+      "name": "Oracle Digital Assistant 2024 Sales Specialist-19mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-digital-assistant-2024-sales-specialist/89350/123328",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 400,
+      "name": "Build Cloud Native Applications 2023 Sales Specialist-16mins",
+      "url": "https://learn.oracle.com/ols/learning-path/build-cloud-native-applications-2023-sales-specialist/89350/116559",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 401,
+      "name": "Oracle Cloud Infrastructure 2023 Digital Assistant Professional +11hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-digital-assistant-developer-2023/122172",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 405,
+      "name": "Oracle ",
+      "url": "https://mylearn.oracle.com/ou/learning-path/oracle-content-management-implementation-essentials/122394",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 407,
+      "name": "Oracle Redwood Application 2023 Developer Associate +10hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/extending-fusion-cloud-applications-using-visual-builder/112791",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 408,
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-oci-generative-ai-professional/136227",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 415,
+      "name": "Oracle Cloud Platform Application Development 2024 Overview-45mins ",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-platform-application-development-2024-overview/89350/128883",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 426,
+      "name": "AI and Application Innovation ",
+      "url": "https://learn.oracle.com/ols/learning-path/ai-and-application-innovation/89350/128506",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 427,
+      "name": "Smarter Apps with Oracle AI-60mins",
+      "url": "https://go.oracle.com/lp=138235",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 428,
+      "name": "Oracle PartnerCast: New AI Services for Business Innovation Replay +1hr",
+      "url": "https://learn.oracle.com/ols/course/oracle-partnercast-new-ai-services-for-business-innovation-replay/89350/106943",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 429,
+      "name": "Oracle PartnerCast: Introduction to OCI AI Services Replay 54min",
+      "url": "https://learn.oracle.com/ols/course/oracle-partnercast-introduction-to-oci-ai-services-replay/89350/113561",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 430,
+      "name": "Lab - Analytics ML and Prediction for Sales 1hr",
+      "url": "https://learn.oracle.com/ols/module/lab-analytics-ml-and-prediction-for-sales/89350/101978",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 431,
+      "name": "Cloud Native Development Explorer +50mins",
+      "url": "https://mylearn.oracle.com/ou/learning-path/cloud-native-development-explorer/79404",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 440,
+      "name": "Oracle Digital Assistant Overview-20mins",
+      "url": "https://learn.oracle.com/ols/course/oracle-digital-assistant-overview/89350/123337",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 442,
+      "name": "Oracle Digital Assistant Platform: Model training and AI-12min",
+      "url": "https://learn.oracle.com/ols/course/oracle-digital-assistant-platform-model-training-and-ai/89350/99517",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 443,
+      "name": " Accelerate your chatbot projects with Oracle Digital Assistant Templates Replay 57mins",
+      "url": "https://learn.oracle.com/ols/course/accelerate-your-chatbot-projects-with-oracle-digital-assistant-templates-replay/89350/101389/151435",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 444,
+      "name": "Analytics and AI +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/analytics-and-ai/124938/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 445,
+      "name": "Train Your AI Model (48mins)",
+      "url": "https://www.youtube.com/watch?v=ww4u7wkg_wc",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 451,
+      "name": "From Zero to Hero: An Intro to Machine Learning and AI-41mins",
+      "url": "https://www.youtube.com/watch?v=ovrntczrl24",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 455,
+      "name": "Oracle PartnerCast: Helping you build awesome digital assistant experience Replay-55mins",
+      "url": "https://learn.oracle.com/ols/module/oracle-partnercast-helping-you-build-awesome-digital-assistant-experience-replay/89350/107888",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 456,
+      "name": "Innovate Service Cloud with Chatbots Replay 50mins",
+      "url": "https://learn.oracle.com/ols/course/innovate-service-cloud-with-chatbots-replay/89350/100305",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 457,
+      "name": "Become a Hero with OCI AI Services 46min",
+      "url": "https://learn.oracle.com/ols/course/become-a-hero-with-oci-ai-services/89350/106174",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 459,
+      "name": "Move Oracle Apps to OCI / Lift & Shift Oracle Apps +1hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/usecase-move-oracle-apps-to-oci-lift-shift-oracle-apps/77182",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 469,
+      "name": "\nOracle Digital Assistant Platform: Building blocks 10min",
+      "url": "https://learn.oracle.com/ols/course/oracle-digital-assistant-platform-building-blocks/89350/99519",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 470,
+      "name": "Move and modernize your custom and third-party applications to OCI  -  Replay +1hr",
+      "url": "https://learn.oracle.com/ols/module/move-and-modernize-your-custom-and-third-party-applications-to-oci-replay/89350/101021",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 471,
+      "name": "Oracle PartnerCast: Hands-on guide for building Cloud Native App with ATP Replay 40mins",
+      "url": "https://learn.oracle.com/ols/course/oracle-partnercast-hands-on-guide-for-building-cloud-native-app-with-atp-replay/89350/105014",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 477,
+      "name": "Low Code Development Application - Oracle Partner Technical Forum 2022 +5hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/low-code-development-application-oracle-partner-technical-forum-2022/89350/106152",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 479,
+      "name": "uilding your Clients DevOps Platform 53 Mins",
+      "url": "https://learn.oracle.com/ols/course/building-your-clients-devops-platform/89350/106184",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 480,
+      "name": "Lab - APEX - Creating an app from a spreadsheet",
+      "url": "https://learn.oracle.com/ols/journey/lab-apex-creating-an-app-from-a-spreadsheet/89350/111646",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 481,
+      "name": "Quick Guide To Low Code Development +20mins",
+      "url": "https://mylearn.oracle.com/ou/learning-path/quick-guide-to-low-code-development/127235",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 482,
+      "name": "Web Application Development In Oracle Cloud +33hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/web-application-development-in-oracle-cloud/121566",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 484,
+      "name": "Build and Deploy a Microservice to Docker and Kubernetes +4hrs",
+      "url": "https://mylearn.oracle.com/ou/course/build-and-deploy-a-microservice-to-docker-and-kubernetes/103544/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 488,
+      "name": "Developing Cloud Native Applications on OCI - New! +9hrs",
+      "url": "https://mylearn.oracle.com/ou/course/developing-cloud-native-applications-on-oci-new/105691/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 489,
+      "name": "Workshop - Building Cloud Native Solution on OCI (+8hrs)",
+      "url": "https://mylearn.oracle.com/ou/course/workshop-building-cloud-native-solution-on-oci/122004/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 491,
+      "name": "Cloud Application Development Explorer +1hr",
+      "url": "https://mylearn.oracle.com/ou/learning-path/cloud-application-development-explorer/87822",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 497,
+      "name": "Migrate VMware Workloads to OCI 2023 Solution Engineer +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/migrate-vmware-workloads-to-oci-2023-solution-engineer/89350/121207",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 498,
+      "name": "Migrate VMware Workloads to OCI 2023 Sales Person +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/migrate-vmware-workloads-to-oci-2023-sales-person/89350/121189",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 500,
+      "name": "Oracle Cloud Infrastructure 2023 Developer Professional +32hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-developer-professional-2023/121998",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 502,
+      "name": "Move and Improve VMware Workloads to OCI for Sales 28mins",
+      "url": "https://learn.oracle.com/ols/course/move-and-improve-vmware-workloads-to-oci-for-sales/89350/92932",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 503,
+      "name": "Working with Oracle Cloud VMware Solution +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/working-with-oracle-cloud-vmware-solution/123362/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 504,
+      "name": " Hybrid +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/hybrid/124916/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 507,
+      "name": "Lift & Shift VMware Virtual Machine to Oracle Cloud VMware Solution +50mins",
+      "url": "https://mylearn.oracle.com/ou/course/lift-shift-vmware-virtual-machine-to-oracle-cloud-vmware-solution/82784/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 508,
+      "name": "Non-Oracle Workload to OCI +2hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/non-oracle-workload-to-oci/89350/126763",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 511,
+      "name": "Move and Improve VMware Workloads to Oracle Cloud Infrastructure 2021 Solution Engineer Specialist +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/move-and-improve-vmware-workloads-to-oracle-cloud-infrastructure-2021-solution-engineer-specialist/89350/94139",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 513,
+      "name": "Oracle PartnerCast: OCI Deep Dive - Introducing Oracle Cloud Migrations Replay (+50mins",
+      "url": "https://learn.oracle.com/ols/course/oracle-partnercast-oci-deep-dive-introducing-oracle-cloud-migrations-replay/89350/115509",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 515,
+      "name": "Oracle VM 3.0 for x86 Certified Implementation Specialist",
+      "url": "https://education.oracle.com/products/trackp_127",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 519,
+      "name": "Introducing Oracle Cloud Migrations +1hr",
+      "url": "https://learn.oracle.com/ols/course/introducing-oracle-cloud-migrations/89350/121937",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 529,
+      "name": "Oracle Cloud Database Migration And Integration Professional (2023) +4hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-database-migration-and-integration-professional-2023/122246",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:44",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 534,
+      "name": "Migrate and Modernize Java Applications 2022 Solution Engineer (25mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/migrate-and-modernize-java-applications-2022-solution-engineer/89350/107483",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 540,
+      "name": "Live Sessions",
+      "url": "https://learn.oracle.com/ols/live-events/live-sessions-opn-learning-center-learn-oracle-oracle-global-partner-enablement/89350?filter=f6_emea",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 541,
+      "name": "Live Labs",
+      "url": "https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/home?session=101667628962687",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 542,
+      "name": "Product Channel",
+      "url": "https://www.oracle.com/opn/secure/get-enabled/partnercasts/product-channel/platform/index.html",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 543,
+      "name": "Oracle Technology Specialists GitHub Repository - VMware Solutions",
+      "url": "https://github.com/oracle-devrel/technology-engineering/tree/main/cloud-infrastructure/vmware-solutions",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 544,
+      "name": "On demand session",
+      "url": "https://www.oracle.com/emea/cloud/events/cloud-coaching/on-demand/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 557,
+      "name": "Migrate E-Business Suite to Oracle Cloud Infrastructure - Oracle MyLearn",
+      "url": "https://mylearn.oracle.com/ou/course/migrate-e-business-suite-to-oracle-cloud-infrastructure/101667/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 558,
+      "name": "Migrating Your Data to MySQL HeatWave Database Service (+1hr",
+      "url": "https://mylearn.oracle.com/ou/course/migrating-your-data-to-mysql-heatwave-database-service/123203/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 559,
+      "name": "Migrating RAC Database to Oracle Cloud Infrastructure +3hr",
+      "url": "https://mylearn.oracle.com/ou/course/migrating-rac-database-to-oracle-cloud-infrastructure/57293/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 561,
+      "name": "Migrate Your Oracle Database To OCI +3hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/migrate-your-oracle-database-to-oci/58376",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 563,
+      "name": "Migration and DR +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/migration-and-dr/124915/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 566,
+      "name": "Migrate to Oracle Autonomous Database (+1hr)",
+      "url": "https://learn.oracle.com/ols/course/migrate-to-oracle-autonomous-database/89350/112531",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 567,
+      "name": "Upgrade and Migrate Oracle DB19c (+3hrs)",
+      "url": "https://learn.oracle.com/ols/course/upgrade-and-migrate-oracle-db19c/89350/104360",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 589,
+      "name": "Migrate Custom Applications with Oracle Database to OCI-30mins",
+      "url": "https://learn.oracle.com/ols/home/89350",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 613,
+      "name": "Oracle Cloud Infrastructure Application Solution 2020 Sales Specialist +2hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-application-solution-2020-sales-specialist/89350/94819",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 625,
+      "name": "OCI Networking Professional (Beta) +7hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-networking-professional-beta/126810",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 627,
+      "name": "Oracle Cloud Infrastructure 2023 Cloud Operations Professional +24hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-cloud-operations-professional-2023/122065",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 633,
+      "name": "Oracle Cloud Infrastructure 2023 DevOps Professional +37hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-devops-professional-2023/121756",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 643,
+      "name": "Oracle Cloud Infrastructure Overview-30min",
+      "url": "https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-overview/89350/94539",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 644,
+      "name": "Oracle Cloud Infrastructure 2024 Overview-30mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-2024-overview/89350/132075",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 645,
+      "name": "Getting Started with Oracle Cloud Infrastructure - Oracle MyLearn-1hr 30 min",
+      "url": "https://mylearn.oracle.com/ou/course/-/116049/183024",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 646,
+      "name": "OCI 2024 Competitive Positioning-20mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oci-2024-competitive-positioning/89350/131691",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 651,
+      "name": "Oracle Coherence Cloud Fundamentals +1hr",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-coherence-cloud-fundamentals/77799/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 656,
+      "name": "OCI: Strategy and Messaging-15min",
+      "url": "https://learn.oracle.com/ols/course/oci-strategy-and-messaging/89350/111504",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 665,
+      "name": "OCI Landing Zone-38mins",
+      "url": "https://mylearn.oracle.com/ou/course/oci-landing-zone/123962/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 667,
+      "name": "Day One and Beyond_ Zero Trust Security with OCI-1hr",
+      "url": "https://learn.oracle.com/ols/course/day-one-and-beyond_-zero-trust-security-with-oci/89350/103961",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 668,
+      "name": "Cloud Coaching - Security-First approach for your OCI Tenancy-50mins",
+      "url": "https://www.youtube.com/watch?v=zb87vuck6tg",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 669,
+      "name": "OCI 2024 Pricing (20mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/oci-2024-pricing/89350/129915",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 670,
+      "name": "OCI for AWS Architects +3hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/oci-for-aws-architects/105110",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 671,
+      "name": "Cloud Adoption Framework and Essentials +2hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/cloud-adoption-framework-and-essentials/122491",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 672,
+      "name": "Oracle Cloud Infrastructure - Intermediate for Solution Engineers 4hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-intermediate-for-solution-engineers/89350/94895",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 677,
+      "name": "Oracle@Oracle for Infrastructure 2023 (+2hrs)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracleoracle-for-infrastructure-2023/89350/110393",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 679,
+      "name": "Securely Managing an Oracle Cloud Infrastructure Tenancy",
+      "url": "https://learn.oracle.com/ols/course/session-2-securely-managing-an-oracle-cloud-infrastructure-tenancy-what-to-do-next/89350/125898",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 680,
+      "name": "Build and Deploy a Microservice to Docker and Kubernetes -+6hrs",
+      "url": "https://mylearn.oracle.com/ou/course/build-and-deploy-a-microservice-to-docker-and-kubernetes/111439/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 682,
+      "name": "Discover and Train in CyberSecurity +2hrs",
+      "url": "https://mylearn.oracle.com/ou/learning-path/discover-and-train-in-cybersecurity/100307",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 683,
+      "name": "Your Must-do Checklist for Securely Managing an OCI Tenancy+3hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/your-must-do-checklist-for-securely-managing-an-oci-tenancy/89350/126722",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 687,
+      "name": "Oracle Cloud Infrastructure (OCI) Dedicated Region 2024 Sales Specialist (30mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-oci-dedicated-region-2024-sales-specialist/89350/130179",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:45",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 718,
+      "name": "Oracle Cloud Infrastructure 2023 Multicloud Architect Associate(+6hrs)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 728,
+      "name": "FY24 Sales Play - Estate Modernization (52mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/fy24-sales-play-estate-modernization/89350/127190",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 729,
+      "name": "Azure and OCI focus Replay (37mins)",
+      "url": "https://learn.oracle.com/ols/course/azure-and-oci-focus-replay/89350/100395",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 734,
+      "name": "Oracle Database Service for Azure (ODSA) 2023 Overview-(30mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-database-service-for-azure-odsa-2023-overview/89350/121078",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 737,
+      "name": "Oracle Interconnect for Azure 2023 Overview-(1hr)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-interconnect-for-azure-2023-overview/89350/120998",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 738,
+      "name": "Oracle Multicloud Strategy by Product Management Team-(52 mins)",
+      "url": "https://learn.oracle.com/ols/course/oracle-multicloud-strategy-by-product-management-team/89350/118698",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 739,
+      "name": "Redefined(40 mins)",
+      "url": "https://learn.oracle.com/ols/course/multicloud-redefined/89350/106244",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 745,
+      "name": "OCI for Azure Architects (+3hrs)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/oci-for-azure-architects/105130",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 746,
+      "name": "Oracle PartnerCast: Introducing Oracle Database Service for Azure and Oracle Multi-cloud Solutions Replay(56mins)",
+      "url": "https://learn.oracle.com/ols/module/oracle-partnercast-introducing-oracle-database-service-for-azure-and-oracle-multi-cloud-solutions-replay/89350/112583",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 747,
+      "name": "Oracle PartnerCast: Multi-Cloud Security - Oracle Database and Azure Active Directory integration Replay(54mins)",
+      "url": "https://learn.oracle.com/ols/module/oracle-partnercast-multi-cloud-security-oracle-database-and-azure-active-directory-integration-replay/89350/110467",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 748,
+      "name": "Database Service for ",
+      "url": "https://learn.oracle.com/ols/course/multicloud-with-oracle-database-service-for-azure/89350/113247",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 750,
+      "name": "Maximizing the value of your Data Capital and Optimize Developer Productivity with Oracle's Multicloud Capabilities 1hr52mins",
+      "url": "https://learn.oracle.com/ols/course/maximizing-the-value-of-your-data-capital-and-optimize-developer-productivity-with-oracles-multicloud-capabilities/89350/106209",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 751,
+      "name": "OCI and the Multicloud (+30mins)",
+      "url": "https://www.youtube.com/watch?v=qpzjhgm3als",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 758,
+      "name": "OCI Networking Professional (Beta) (+6hrs",
+      "url": "https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-networking-professional-beta/126809",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 761,
+      "name": "Oracle Identity and Access Management 2024 Sales Specialist+1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-identity-and-access-management-2024-sales-specialist/89350/123870",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 762,
+      "name": "Oracle Access Governance 2023 Sales Person (25mins)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-access-governance-2023-sales-person/89350/121537",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 764,
+      "name": "Oracle Cloud Infrastructure 2023 Security Professional (+26hrs)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-cloud-security-professional-2023/121923",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 765,
+      "name": "Oracle Identity Cloud Service 2020 Solutions Engineer Specialist+1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-identity-cloud-service-2020-solutions-engineer-specialist/89350/90491",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 778,
+      "name": "Oracle Cloud Infrastructure Identity and Access Management 2023 Overview-15min",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-identity-and-access-management-2023-overview/89350/110007",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 779,
+      "name": "Oracle Security 2024 Overview-25 min",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-security-2024-overview/89350/131204",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 780,
+      "name": "Oracle Identity Cloud Service - Market Trends and drivers-20min",
+      "url": "https://learn.oracle.com/ols/course/oracle-identity-cloud-service-market-trends-and-drivers/89350/90286",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 783,
+      "name": "Getting Started With Oracle Cloud Security (+30mins)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/getting-started-with-oracle-cloud-security/38706",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 794,
+      "name": "Identity & Security +9hrs",
+      "url": "https://mylearn.oracle.com/ou/course/identity-security/124944/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 795,
+      "name": "Identity - Accelerate your IAM Modernization Journey with Oracle-55min",
+      "url": "https://learn.oracle.com/ols/course/identity-accelerate-your-iam-modernization-journey-with-oracle/89350/106136",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 796,
+      "name": "Oracle Cloud Infrastructure Security Workshop Series +5hrs",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-cloud-infrastructure-security-workshop-series/89350/101630",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 804,
+      "name": "Oracle IAM 2023 Architecture - OCI Basics+1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oci-foundation-for-iam-modernization-2023-solution-engineer/89350/121984",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 805,
+      "name": "Deploying Oracle Identity and Access Management containers on OCI 2024 Solution Engineer 45mins",
+      "url": "https://learn.oracle.com/ols/learning-path/deploying-oracle-identity-and-access-management-containers-on-oci-2024-solution-engineer/89350/122748",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 806,
+      "name": "OCI Security & Compliance - Vulnerability Scanning, Encryption and Bastion Services-44mins",
+      "url": "https://learn.oracle.com/ols/course/oci-security-amp-compliance-vulnerability-scanning-encryption-and-bastion-services/89350/106131",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 807,
+      "name": "Oracle IAM 2024 Architecture - Deploying Microservices on OCI (30min)",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-iam-2024-architecture-deploying-microservices-on-oci/89350/124654",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 808,
+      "name": "Oracle IAM 2023 Architecture - Deploying on OCI-40mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-iam-2023-architecture-deploying-on-oci/89350/121751",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 809,
+      "name": "Securely Run and Optimise Oracle Workloads-50mins",
+      "url": "https://www.youtube.com/watch?v=gp71jpd-9te",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 812,
+      "name": "Oracle IAM Architecture - Deploying Access Governance on OCI 2024 Overview-40mins",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-iam-architecture-deploying-access-governance-on-oci-2024-overview/89350/125361",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 813,
+      "name": "Oracle IAM 2024 Architecture - Container and Microservices Modernization Basics +1hr",
+      "url": "https://learn.oracle.com/ols/learning-path/oracle-iam-2024-architecture-container-and-microservices-modernization-basics/89350/124312",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 822,
+      "name": "Offloading Oracle Identity Management+40mins",
+      "url": "https://www.youtube.com/watch?v=mda_m2jnoxm",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 835,
+      "name": "Oracle IAM Architecture - Deploying Microservices on OCI (30min)",
+      "url": "https://learn.oracle.com/ols/course/oracle-iam-architecture-deploying-microservices-on-oci/89350/124630",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 844,
+      "name": "Home - Oracle MyLearn",
+      "url": "https://mylearn.oracle.com/ou/home",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 845,
+      "name": "Oracle Architecture Center | Oracle Help Center",
+      "url": "https://docs.oracle.com/solutions/?q=integration&ctype=reference-architectures&sort=date-desc&lang=en",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 846,
+      "name": "Workshops & Sprints (oracle.com)",
+      "url": "https://apexapps.oracle.com/pls/apex/f?p=133:100:18814659715636::::search:integration",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 847,
+      "name": "Labs • Luna (oracle.com)",
+      "url": "https://luna.oracle.com/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 848,
+      "name": "https://bit.ly/oci-onboarding",
+      "url": "https://bit.ly/oci-onboarding",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 849,
+      "name": "OCI in 5",
+      "url": "https://www.oracle.com/emea/cloud/architecture-center/oci-in-5/",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 851,
+      "name": "here",
+      "url": "https://app.response.oracle-mail.com/e/er?elq_mid=246508&sh=09260213181006222306241822103230312507&cmid=corp230814p00017&s=1973398186&lid=587835&elqtrackid=8091958e6e7068c9be62a9948da16891&elq=b7e49fcaacbd439aa33e04f2d556e8de&elqaid=246508&elqat=1",
+      "valid": 1,
+      "certification": 0,
+      "timestamp": "2024-08-12 00:47:46",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 852,
+      "name": "OCI Architect Associate (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-architect-associate-2024/137550",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 17:30:27",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 853,
+      "name": "OCI Foundations Associate (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2024/139374",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 17:32:55",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 855,
+      "name": "Oracle Cloud Infrastructure Data Foundations Associate (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-infrastructure-data-foundations-associate-2024/140339",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 17:36:26",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 856,
+      "name": "Oracle Machine Learning Associate (using Autonomous Database) (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-machine-learning-associate-using-autonomous-database-2024/138903",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:18:26",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 857,
+      "name": "Oracle Cloud Database Migration Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-database-migration-professional-2024/138919",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:20:50",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 858,
+      "name": "Oracle Cloud Database Services Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-database-services-professional-2024/140770",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:22:50",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 859,
+      "name": "Become an Oracle Autonomous Database Cloud Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-autonomous-database-cloud-professional-2024/140240",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:25:09",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 860,
+      "name": "Oracle Cloud Infrastructure Observability Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-infrastructure-observability-professional-2024/139312",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:26:39",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 861,
+      "name": "OCI Data Science Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-data-science-professional-2024/137742",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:36:59",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 862,
+      "name": "OCI Architect Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-architect-professional-2024/139688",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:40:42",
+      "topics": [],
+      "personas": []
+    },
+    {
+      "id": 863,
+      "name": "OCI Security Professional (2024)",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-cloud-security-professional-2024/137773",
+      "valid": 1,
+      "certification": 1,
+      "timestamp": "2024-08-12 23:47:46",
+      "topics": [],
+      "personas": []
+    }
+  ],
+  "topics": [
+    {
+      "MADE": "M",
+      "Topic": "Build with GenAI and ML in Data Platform"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Build with Low Code (APEX)"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Innovate with Analytics"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Innovate with Autonomous Database"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Migrate Open Source Data Platforms"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Migrate to HeatWave MySQL"
+    },
+    {
+      "MADE": "M",
+      "Topic": "Modernize with Data Lakehouse"
+    },
+    {
+      "MADE": "A",
+      "Topic": "Build Cloud Native Apps"
+    },
+    {
+      "MADE": "A",
+      "Topic": "Build with GenAI Services"
+    },
+    {
+      "MADE": "A",
+      "Topic": "Run on OCI AI Infrastructure"
+    },
+    {
+      "MADE": "D",
+      "Topic": "Migrate non-Oracle and Open Source Applications"
+    },
+    {
+      "MADE": "D",
+      "Topic": "Migrate to Dedicated Region/Alloy/Sovereign"
+    },
+    {
+      "MADE": "D",
+      "Topic": "Migrate to Oracle Cloud VMware Solution"
+    },
+    {
+      "MADE": "D",
+      "Topic": "Run ISV applications as SaaS"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Consolidate Oracle Databases (Exa on-premises)"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Migrate Oracle and Third Party Apps to OCI (w/Oracle DB)"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize Oracle and Other Apps with Oracle Database on OCI"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize with Integration and Automation"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize with On-premises and Cloud-based Management"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize with Oracle Database in OCI"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize with Oracle Database@Azure"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Modernize with Oracle Database@Google Cloud"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Strengthen Security & Resilience"
+    },
+    {
+      "MADE": "E",
+      "Topic": "Upgrade to 19c/23ai"
+    }
+  ],
+  "personas": [
+    {
+      "id": 1,
+      "persona": "DevOps"
+    },
+    {
+      "id": 2,
+      "persona": "Data Admins (DBA)"
+    },
+    {
+      "id": 3,
+      "persona": "Systems Admin / Security Engineer"
+    },
+    {
+      "id": 4,
+      "persona": "Data Scientist"
+    },
+    {
+      "id": 5,
+      "persona": "Data Analyst"
+    },
+    {
+      "id": 6,
+      "persona": "Sales / Business Development"
+    },
+    {
+      "id": 7,
+      "persona": "Pre-sales / Architect"
+    },
+    {
+      "id": 8,
+      "persona": "Cloud Engineer / Developer"
+    }
+  ]
+}
