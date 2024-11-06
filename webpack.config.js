@@ -48,6 +48,10 @@ module.exports = (env) => {
                         },
                     ],
                 },
+                {
+                    test: /\.yaml$/i,
+                    use: 'yaml-loader',
+                },
             ],
         },
         resolve: {

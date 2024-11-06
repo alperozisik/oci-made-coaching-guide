@@ -4,39 +4,39 @@ import TopicSelection from './components/TopicSelection';
 import LinkSelection from './components/LinkSelection';
 import data from './guide.json'; // Importing JSON data
 import './styles.css';
+import journeyData from './journey.yaml'; // Importing YAML journey data
 
 const App = () => {
-    // Define application state for current step, selected persona, and selected topic
-    const [currentStep, setCurrentStep] = useState('persona');
+    // State to keep track of the current step in the journey
+    const [currentStep, setCurrentStep] = useState(journeyData.journey.default[0]);
+    // State for selected persona (if applicable)
     const [selectedPersona, setSelectedPersona] = useState(null);
-    const [selectedTopic, setSelectedTopic] = useState(null);
 
-    // Handle persona selection and proceed to the topic selection step
-    const handleSelectPersona = (persona) => {
-        setSelectedPersona(persona);
-        setCurrentStep('topic');
-    };
+    /**
+     * Function to handle moving to the next step in the journey
+     * @param {string} stepKey - The key representing the current step in the journey
+     */
+    const handleNextStep = (stepKey) => {
+        console.log('Next step:', stepKey);
+        // Logic to find the next step and update the state
+        // Check for exceptions or use the default flow
+        const nextStepIndex = journeyData.journey.default.findIndex(
+            (step) => step.step === stepKey
+        ) + 1;
 
-    // Handle topic selection and proceed to the link selection step
-    const handleSelectTopic = (topic) => {
-        setSelectedTopic(topic);
-        setCurrentStep('link');
+        if (nextStepIndex < journeyData.journey.default.length) {
+            setCurrentStep(journeyData.journey.default[nextStepIndex]);
+        } else {
+            console.log('End of journey');
+        }
     };
 
     return (
         <div>
-            {/* Render PersonaSelection if current step is 'persona' */}
-            {currentStep === 'persona' && (
-                <PersonaSelection personas={data.personas} onSelectPersona={handleSelectPersona} />
-            )}
-            
-            {/* Render TopicSelection if current step is 'topic' */}
-            {currentStep === 'topic' && (
-                <TopicSelection topics={data.topics} persona={selectedPersona} onSelectTopic={handleSelectTopic} />
-            )}
-            
-            {/* Render LinkSelection if current step is 'link' */}
-            {currentStep === 'link' && <LinkSelection links={data.links} topic={selectedTopic} />}
+            {/* Displaying the current step name */}
+            <h1>{currentStep.step}</h1>
+            {/* Button to proceed to the next step */}
+            <button onClick={() => handleNextStep(currentStep.step)}>Next</button>
         </div>
     );
 };

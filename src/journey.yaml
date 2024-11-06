@@ -1,0 +1,50 @@
+journey:
+  default:
+    - step: Persona Selection
+      breadcrumbVisible: true
+      component: PersonaSelection
+    - step: Persona Confirmation
+      breadcrumbVisible: false
+      component: Confirmation
+      icon: 'persona${personaId}.svg'
+      proceedButton: "Confirm"
+      backButton: "Back"
+      title: ${personaName}
+    - step: Topic Selection
+      breadcrumbVisible: true
+      component: TopicSelection
+    - step: Category Selection
+      breadcrumbVisible: false
+      details:
+        - type: certification
+        - type: learning
+      condition: |
+        if both categories are empty, skip to the next step
+    - step: Link List
+      breadcrumbVisible: true
+
+  exceptions:
+    - persona: Sales / Business Development
+      condition: ${personaId} === 6
+      flow:
+        - step: Persona Confirmation
+          text: In this guide, Sales and Business Development professionals will learn about the range of offerings provided by Oracle. They will gain an understanding of the key aspects of the tools provided by Oracle, equipping them with the knowledge needed to effectively sell these solutions. This includes insights into product features, benefits, and how they address customer needs. The guide aims to enhance their ability to articulate the value propositions of Oracle’s offerings and tailor their sales strategies accordingly.
+        - step: AI Topic Check
+          breadcrumbVisible: false
+          insertAfter: Topic Selection
+          condition: ${topic} in ('Build with GenAI Services', 'Run on OCI AI Infrastructure')
+          component: Confirmation
+          title: Have you completed Oracle Artificial Intelligence 2024 Sales Specialist certification?
+          proceedButton: Yes
+          backButton: No
+          text: OCI AI Sales Specialist certification is contains key information about Oracle's AI offerings and how they can be used to solve customer problems. It is recommended that you complete this certification before proceeding with the guide.
+    - persona: Pre-Sales / Architect
+      flow:
+        - step: Persona Explanation
+          text: Pre-Sales-specific persona explanation
+        - step: OCI Certification Check
+          question: "Do you have an OCI Architect Associate or Professional certification?"
+        - topic: AI
+          flow:
+            - step: AI Foundation Check
+              question: "Have you completed the AI Foundation Associate certification?"
