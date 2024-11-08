@@ -19,7 +19,7 @@ const App = () => {
     return (
         <div className="app-container">
             <Navigation currentStep={currentStep} onNavigate={() => { /* Navigation logic */ }}
-                guideData={guideData} />
+                guideData={guideData} journeyData={journeyData} />
         </div>
     );
 };

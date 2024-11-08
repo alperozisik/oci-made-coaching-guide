@@ -1,4 +1,5 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import './PersonaSelection.css';
 import Persona1Icon from '../images/persona1.svg';
 import Persona2Icon from '../images/persona2.svg';
@@ -22,8 +23,22 @@ const icons = [
 
 const defaultViewBox = "0 0 99 98";
 
-const PersonaSelection = ({ guideData, onSelectPersona }) => {
+const PersonaSelection = ({ guideData, onSelectPersona, goNextStep }) => {
+    const dispatch = useDispatch();
     const personas = guideData.personas;
+
+    const handleSelectPersona = (persona) => {
+        // Dispatch to update the selected persona in the store
+        dispatch({ type: 'SET_PERSONA', payload: persona });
+
+        goNextStep();
+
+        // Call the optional onSelectPersona event if provided
+        if (onSelectPersona) {
+            onSelectPersona(persona);
+        }
+    };
+
     return (
         <div className="persona-selection">
             <div className="header">
@@ -38,10 +53,10 @@ const PersonaSelection = ({ guideData, onSelectPersona }) => {
                 {personas.map((persona, index) => {
                     const IconComponent = icons[index];
                     return (
-                        <div 
-                            key={persona.id} 
-                            className={`persona-item persona-${index + 1}`} 
-                            onClick={() => onSelectPersona(persona)}
+                        <div
+                            key={persona.id}
+                            className={`persona-item persona-${index + 1}`}
+                            onClick={() => handleSelectPersona(persona)}
                         >
                             <IconComponent className="persona-icon" viewBox={defaultViewBox} />
                             <p>{persona.persona}</p>
