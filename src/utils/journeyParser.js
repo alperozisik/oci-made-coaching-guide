@@ -1,5 +1,4 @@
 import React from 'react';
-import guide from '../guide.json';
 import Link from '../components/Link';
 /**
  * Parses the journey YAML and merges the default and exception flows based on step names.
@@ -111,6 +110,7 @@ export const parseJourney = (journeyData, userSelection) => {
     }
 
     // If no exceptions match, return the default flow
+    console.log("Default flow:", defaultFlow);
     return defaultFlow;
 };
 

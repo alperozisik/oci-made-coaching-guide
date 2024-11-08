@@ -1,23 +1,25 @@
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { parseJourney } from './utils/journeyParser';
 import journeyData from './journey.yaml';
-import Navigation from './components/Navigation';
+import Navigation from './Navigation';
+import guideData from './guide.json';
 
 const App = () => {
     const dispatch = useDispatch();
+    const currentStep = useSelector((state) => state.navigation.currentStep); // Get the current step from the store
 
     useEffect(() => {
-        // Parse the initial journey step and set the first component
         const initialJourney = parseJourney(journeyData, { personaId: null, topic: null });
         if (initialJourney.length > 0) {
-            dispatch({ type: 'PUSH_COMPONENT', payload: initialJourney[0].component });
+            dispatch({ type: 'SET_INITIAL_STEP', payload: initialJourney[0] });
         }
     }, [dispatch]);
 
     return (
         <div className="app-container">
-            <Navigation />
+            <Navigation currentStep={currentStep} onNavigate={() => { /* Navigation logic */ }}
+                guideData={guideData} />
         </div>
     );
 };

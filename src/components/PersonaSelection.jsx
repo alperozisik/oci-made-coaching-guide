@@ -22,7 +22,8 @@ const icons = [
 
 const defaultViewBox = "0 0 99 98";
 
-const PersonaSelection = ({ personas, onSelectPersona }) => {
+const PersonaSelection = ({ guideData, onSelectPersona }) => {
+    const personas = guideData.personas;
     return (
         <div className="persona-selection">
             <div className="header">

@@ -1,0 +1,21 @@
+.link-list {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+    border: 1px solid #ddd; /* Light border for visual separation */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Subtle background */
+}
+
+.link-list ul {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 20px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list li:last-child {
+    margin-bottom: 0; /* Remove margin from the last item */
+}
