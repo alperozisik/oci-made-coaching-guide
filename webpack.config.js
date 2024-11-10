@@ -6,14 +6,16 @@ const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = (env) => {
     const isSingle = env.BUILD_MODE === 'Single';
-
+    const isDebug = !env.BUILD_MODE;
+    console.log('Build mode:', env.BUILD_MODE);
     return {
         entry: './src/index.js',
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js',
         },
-        mode: 'production',
+        mode: isDebug? 'development': 'production',
+        devtool: 'source-map',
         module: {
             rules: [
                 {
@@ -66,7 +68,7 @@ module.exports = (env) => {
             ...(isSingle ? [new HtmlInlineScriptPlugin()] : [])
         ],
         optimization: {
-            minimize: true,
+            minimize: !isDebug,
             minimizer: [new TerserPlugin()],
         },
     };
