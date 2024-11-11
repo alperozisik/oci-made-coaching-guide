@@ -23,6 +23,21 @@ const navigationReducer = (state = initialState, action) => {
                 history: newHistory,
                 currentStep: newHistory[newHistory.length - 1] || null,
             };
+        case 'POP_MULTIPLE_STEPS':
+            if (action.payload > state.history.length) {
+                console.warn('Invalid step count: Trying to go back more steps than available in history.');
+                return {
+                    ...state,
+                    history: [],
+                    currentStep: null,
+                };
+            }
+            const updatedHistory = state.history.slice(0, -action.payload);
+            return {
+                ...state,
+                history: updatedHistory,
+                currentStep: updatedHistory[updatedHistory.length - 1] || null,
+            };
         case 'NEXT_STEP':
             const { currentStep, journeyData, userSelection } = action.payload;
             const currentIndex = journeyData.findIndex(step => step.step === currentStep.step);

@@ -27,9 +27,9 @@ const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow) => {
     });
 
     // Find additional steps in exceptionFlow that are not in defaultFlow
-    const additionalSteps = exceptionFlow.filter(excStep =>
-        !defaultFlow.some(defStep => defStep.step === excStep.step)
-    );
+    const additionalSteps = exceptionFlow.filter(excStep => {
+        return !defaultFlow.some(defStep => defStep.step === excStep.step)
+    });
 
     // Handle the placement of additional steps using `insertAfter`
     additionalSteps.forEach(addStep => {
@@ -46,7 +46,6 @@ const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow) => {
             mergedFlow.push(addStep);
         }
     });
-
     return mergedFlow;
 };
 
@@ -63,19 +62,19 @@ const isConditionMet = (condition, userSelection) => {
     }
     try {
         // Evaluate the condition with userSelection as the context
-        
+
         var conditionCode = condition.replace(/\${(\w+)}/g, function (_, key) {
             let value = userSelection[key];
-            if(value === null)
-              return "null";
-            else if(typeof value === "undefined")
-              return "undefined";
-            else if(typeof value === "string" && value.length === 0)
-              return '""';
+            if (value === null)
+                return "null";
+            else if (typeof value === "undefined")
+                return "undefined";
+            else if (typeof value === "string" && value.length === 0)
+                return '""';
             else
-              return "" + value;
-          });
-        const result =  eval(conditionCode);
+                return "" + value;
+        });
+        const result = eval(conditionCode);
         return result;
     } catch (error) {
         console.error("Error evaluating condition:", error);

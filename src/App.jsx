@@ -4,13 +4,14 @@ import { parseJourney } from './utils/journeyParser';
 import journeyData from './journey.yaml';
 import Navigation from './Navigation';
 import guideData from './guide.json';
+import journeyInitialState from './store/reducers/journeyInitialState';
 
 const App = () => {
     const dispatch = useDispatch();
     const currentStep = useSelector((state) => state.navigation.currentStep); // Get the current step from the store
 
     useEffect(() => {
-        const initialJourney = parseJourney(journeyData, { personaId: null, topic: null });
+        const initialJourney = parseJourney(journeyData, journeyInitialState);
         if (initialJourney.length > 0) {
             dispatch({ type: 'SET_INITIAL_STEP', payload: initialJourney[0] });
         }

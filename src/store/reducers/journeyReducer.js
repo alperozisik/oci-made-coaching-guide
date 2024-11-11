@@ -1,20 +1,20 @@
-const initialState = {
-    selectedPersona: null,
-    selectedTopic: null,
-    journeyState: {},
-};
+import initialState from './journeyInitialState';
 
 const journeyReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'SET_PERSONA':
+            let persona = action.payload;
+            if (action.payload && typeof action.payload.id !== 'undefined') {
+                persona = action.payload.id;
+            }
             return {
                 ...state,
-                selectedPersona: action.payload,
+                personaId: persona,
             };
         case 'SET_TOPIC':
             return {
                 ...state,
-                selectedTopic: action.payload,
+                topic: action.payload,
             };
         case 'UPDATE_JOURNEY_STATE':
             return {
