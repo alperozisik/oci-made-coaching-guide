@@ -3,13 +3,18 @@ import initialState from './journeyInitialState';
 const journeyReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'SET_PERSONA':
-            let persona = action.payload;
+            let personaId = null;
+            let personaName = '';
             if (action.payload && typeof action.payload.id !== 'undefined') {
-                persona = action.payload.id;
+                personaId = action.payload.id;
+            }
+            if(action.payload && typeof action.payload.persona !== 'undefined') {
+                personaName = action.payload.persona;
             }
             return {
                 ...state,
-                personaId: persona,
+                personaId: personaId,
+                personaName: personaName,
             };
         case 'SET_TOPIC':
             return {

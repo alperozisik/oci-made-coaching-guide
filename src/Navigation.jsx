@@ -1,9 +1,10 @@
 // Import necessary components and hooks
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { parseJourney } from './utils/journeyParser';
 import store from './store';
+import './Navigation.css';
 
 // Import all potential components
 import PersonaSelection from './components/PersonaSelection';
@@ -26,7 +27,7 @@ const Navigation = ({ currentStep, onNavigate, guideData, journeyData }) => {
 
     const goNextStep = () => {
         const userSelection = store.getState().journey;
-        
+
         const updatedJourney = parseJourney(journeyData, userSelection);
         const currentIndex = updatedJourney.findIndex(step => step.step === currentStep.step);
         if (currentIndex !== -1 && currentIndex < updatedJourney.length - 1) {
@@ -65,6 +66,7 @@ const Navigation = ({ currentStep, onNavigate, guideData, journeyData }) => {
                             guideData={guideData}
                             goNextStep={goNextStep}
                             goStepBack={goStepBack}
+                            journey={store.getState().journey}
                         />
                     </div>
                 </CSSTransition>

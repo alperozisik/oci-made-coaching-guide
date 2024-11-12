@@ -1,30 +1,38 @@
 import React from 'react';
-import Link from './Link'; // Import the Link component
+import { parseText } from '../utils/journeyParser';
 import './Confirmation.css'; // Import the CSS for styling
 
-const Confirmation = ({ currentStep, onProceed, onBack, goNextStep }) => {
+import Persona1Icon from '../images/persona1.svg';
+import Persona2Icon from '../images/persona2.svg';
+import Persona3Icon from '../images/persona3.svg';
+import Persona4Icon from '../images/persona4.svg';
+import Persona5Icon from '../images/persona5.svg';
+import Persona6Icon from '../images/persona6.svg';
+import Persona7Icon from '../images/persona7.svg';
+import Persona8Icon from '../images/persona8.svg';
+
+const icons = {
+    "persona1.svg": Persona1Icon,
+    "persona2.svg": Persona2Icon,
+    "persona3.svg": Persona3Icon,
+    "persona4.svg": Persona4Icon,
+    "persona5.svg": Persona5Icon,
+    "persona6.svg": Persona6Icon,
+    "persona7.svg": Persona7Icon,
+    "persona8.svg": Persona8Icon,
+};
+const defaultViewBox = "0 0 98 98";
+
+const Confirmation = ({ currentStep, onProceed, onBack, goNextStep, journey }) => {
     const { icon, title, text, proceedButton, backButton } = currentStep;
+    const contextData = {
+        icon, title, text, proceedButton, backButton,
+        ...journey,
+    };
     // Default button texts if not provided
     const proceedText = proceedButton || "Proceed";
     const backText = backButton || "Back";
-    // Function to parse text and replace links with Link component
-    const parseText = (text) => {
-        if (!text) {
-            return "";
-        }
-        return text.split('\n').map((line, lineIndex) => (
-            <p key={`line-${lineIndex}`}>
-                {line.split(/(\${link:\d+})/g).map((part, index) => {
-                    const match = part.match(/\${link:(\d+)}/);
-                    if (match) {
-                        const linkId = match[1]; // Extracts the link ID
-                        return <Link key={`link-${linkId}-${index}`} linkId={linkId} />;
-                    }
-                    return <span key={`part-${index}`}>{part}</span>; // Returns the text part as is
-                })}
-            </p>
-        ));
-    };
+
 
     const handleProceed = () => {
         goNextStep && goNextStep();
@@ -36,20 +44,25 @@ const Confirmation = ({ currentStep, onProceed, onBack, goNextStep }) => {
         onBack && onBack();
     }
 
+    let IconComponent = null;
+    if (icon) {
+        IconComponent = icons[parseText(icon, contextData, true)];
+    }
+
     return (
         <div className="confirmation-container">
-            {icon && <img src={icon} alt="Icon" className="confirmation-icon" />}
-            <h2 className="confirmation-title">{title}</h2>
+            {icon && <IconComponent viewBox={defaultViewBox} alt="Icon" className="confirmation-icon" />}
+            <h2 className="confirmation-title">{parseText(title, contextData)}</h2>
             <div className="confirmation-text">
-                {parseText(text)}
+                {parseText(text, contextData)}
             </div>
             <div className="confirmation-buttons">
                 <button className="back-button" onClick={handleBack}>
                     <span className="triangle-left"></span>
-                    {backText}
+                    {parseText(backText, contextData)}
                 </button>
                 <button className="proceed-button" onClick={handleProceed}>
-                    {proceedText}
+                    {parseText(proceedText, contextData)}
                     <span className="triangle-right"></span>
                 </button>
             </div>

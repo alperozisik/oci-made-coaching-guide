@@ -5,10 +5,14 @@
     text-align: center;
     padding: 20px;
     position: relative;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .confirmation-icon {
-    width: 150px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 20px;
     float: left; /* Aligns the icon to the left */
 }
@@ -25,8 +29,8 @@
 }
 
 .confirmation-buttons {
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    margin-top: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
