@@ -5,6 +5,8 @@ import journeyData from './journey.yaml';
 import Navigation from './Navigation';
 import guideData from './guide.json';
 import journeyInitialState from './store/reducers/journeyInitialState';
+import './styles.css';
+import oTag from './assets/images/o-tag.png';
 
 const App = () => {
     const dispatch = useDispatch();
@@ -21,6 +23,7 @@ const App = () => {
         <div className="app-container">
             <Navigation currentStep={currentStep} onNavigate={() => { /* Navigation logic */ }}
                 guideData={guideData} journeyData={journeyData} />
+            <img src={oTag} alt="Oracle O-tag" className="o-tag" />
         </div>
     );
 };

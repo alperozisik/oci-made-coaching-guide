@@ -1,15 +1,31 @@
-/* Reset margins and padding for the entire page */
+@font-face {
+    font-family: 'OracleSans';
+    src: url('./assets/fonts/OracleSans_LtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OracleSans';
+    src: url('./assets/fonts/OracleSans_XBdIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Global font settings for body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'OracleSans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #f8f8f8;
+    /* Light background for better contrast */
 }
 
 /* Header styling for application title */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f2f4f8;
+    color: #262626;
     padding: 10px;
     text-align: center;
 }
@@ -29,19 +45,34 @@ main {
     display: none;
 }
 
-/* Styling for buttons in persona and topic selections */
+/* Styling for buttons with Pine 140 color */
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #3C6255;
+    /* Pine 140 */
+    color: #fff;
+    padding: 12px 24px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    margin: 5px;
+    font-family: 'OracleSans', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 /* Hover effect for buttons */
 button:hover {
-    background-color: #45a049;
+    background-color: #2D4D44;
+    transform: translateY(-2px);
+}
+
+/* Button active state */
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Breadcrumb styling */
@@ -49,4 +80,20 @@ button:hover {
     margin-top: 10px;
     font-size: 0.9em;
     color: #666;
+}
+
+.app-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.o-tag {
+    position: absolute;
+    bottom: 20px;
+    right: 320px;
+    width: 50px;
+    height: auto;
 }

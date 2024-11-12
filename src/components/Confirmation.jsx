@@ -51,10 +51,14 @@ const Confirmation = ({ currentStep, onProceed, onBack, goNextStep, journey }) =
 
     return (
         <div className="confirmation-container">
-            {icon && <IconComponent viewBox={defaultViewBox} alt="Icon" className="confirmation-icon" />}
-            <h2 className="confirmation-title">{parseText(title, contextData)}</h2>
-            <div className="confirmation-text">
-                {parseText(text, contextData)}
+            <div className='confirmation-content'>
+                {icon && <IconComponent viewBox={defaultViewBox} alt="Icon" className="confirmation-icon" />}
+                <div className='confirmation-body'>
+                    <h2 className="confirmation-title">{parseText(title, contextData)}</h2>
+                    <div className="confirmation-text">
+                        {parseText(text, contextData)}
+                    </div>
+                </div>
             </div>
             <div className="confirmation-buttons">
                 <button className="back-button" onClick={handleBack}>

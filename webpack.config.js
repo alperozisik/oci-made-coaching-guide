@@ -13,8 +13,9 @@ module.exports = (env) => {
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js',
+            publicPath: '/',
         },
-        mode: isDebug? 'development': 'production',
+        mode: isDebug ? 'development' : 'production',
         devtool: 'source-map',
         module: {
             rules: [
@@ -39,20 +40,24 @@ module.exports = (env) => {
                     ],
                 },
                 {
-                    test: /\.(png|jpg|gif)$/i,
-                    use: [
-                        {
-                            loader: 'url-loader',
-                            options: {
-                                limit: isSingle ? 2000000 : 0, // 2MB limit for Single build, separate file for Web build
-                                fallback: 'file-loader', // Fallback to file-loader for larger files
-                            },
-                        },
-                    ],
+                    test: /\.(png|jpg|jpeg|gif)$/i,
+                    type: 'asset/resource', // Handles image files
                 },
                 {
                     test: /\.yaml$/i,
                     use: 'yaml-loader',
+                },
+                {
+                    test: /\.(ttf|woff|woff2|eot|otf)$/,
+                    use: [
+                        {
+                            loader: 'url-loader',
+                            options: {
+                                limit: isSingle ? 2000000 : 8192,
+                                name: 'fonts/[name].[hash].[ext]',
+                            },
+                        },
+                    ],
                 },
             ],
         },

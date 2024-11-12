@@ -10,22 +10,45 @@
     box-sizing: border-box;
 }
 
+.confirmation-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+    width: 100%;
+    margin-bottom: 20px; /* Adds spacing below the content */
+}
+
+.confirmation-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: auto;
+    height: 100%;
+    margin: 0 20px; /* Adds padding to the sides */
+}
+
 .confirmation-icon {
     width: 250px;
     height: 250px;
     margin-bottom: 20px;
-    float: left; /* Aligns the icon to the left */
+    margin-right: 20px; /* Adds spacing to the right of the icon */
 }
 
 .confirmation-title {
-    font-size: 2rem;
+    font-size: 2.2rem; /* Slightly larger for better emphasis */
+    font-weight: 800; /* Ensures boldness for better contrast */
     margin-bottom: 20px;
 }
 
 .confirmation-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 20px 0;
     max-width: 600px;
+    line-height: 1.5; /* Improves readability */
 }
 
 .confirmation-buttons {
@@ -34,24 +57,39 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px; /* Adds some padding around the buttons */
+    gap: 20px; /* Adds spacing between the buttons */
+}
+/* Ensures the buttons don't stack vertically on narrow screens */
+@media (max-width: 600px) {
+    .confirmation-buttons {
+        flex-direction: column; /* Stacks the buttons vertically on smaller screens */
+        align-items: center; /* Centers the buttons */
+    }
+    .back-button, .proceed-button {
+        width: 100%; /* Makes buttons full-width */
+    }
 }
 
 .proceed-button,
 .back-button {
-    position: relative;
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 12px 28px; /* More padding for larger button size */
+    font-size: 1.1rem; /* Slightly larger font */
+    background-color: #3C6255; /* Matches Pine 140 */
+    color: #fff;
     border: none;
-    background-color: #007bff;
-    color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 4px; /* Consistent with main button styles */
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .proceed-button:hover,
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #2D4D44; /* Darker for hover */
+    transform: translateY(-2px);
 }
 
 .triangle-right,

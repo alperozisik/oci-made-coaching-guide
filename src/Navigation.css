@@ -6,7 +6,7 @@
 .fade-enter-active {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 300ms, transform 300ms;
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
 }
 
 .fade-exit {
@@ -17,17 +17,12 @@
 .fade-exit-active {
     opacity: 0;
     transform: translateX(-100%);
-    transition: opacity 300ms, transform 300ms;
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
 }
 
-.navigation-step > div{
+.navigation-step > div {
     height: 100vh;
     display: flex;
     overflow: hidden;
-}
-
-.navigation-buttons {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    padding-bottom: 10px; /* Space for O-tag */
 }
