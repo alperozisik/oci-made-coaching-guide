@@ -96,4 +96,5 @@ button:active {
     right: 320px;
     width: 50px;
     height: auto;
+    z-index: 200;
 }

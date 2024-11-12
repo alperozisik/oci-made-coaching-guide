@@ -24,5 +24,4 @@
     height: 100vh;
     display: flex;
     overflow: hidden;
-    padding-bottom: 10px; /* Space for O-tag */
 }
