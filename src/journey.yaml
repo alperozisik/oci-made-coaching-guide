@@ -35,6 +35,7 @@ exceptions:
         title: OCI Sales / Business Development Essentials
         proceedButton: Yes
         backButton: No
+        icon: certification.svg
         text: |
           To work with OCI, you need to know the at least high-level basics of it. This will give you understanding of what you are selling as a sales person or what can you do on OCI as a Business Development person.
           Everything on your role can be build on top of this knowledge.
