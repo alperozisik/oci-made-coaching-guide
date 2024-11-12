@@ -19,7 +19,8 @@ body {
     padding: 0;
     color: #333;
     background-color: #f8f8f8;
-    /* Light background for better contrast */
+    background-image: url('./assets/images/background.png');
+    background-repeat: repeat;
 }
 
 /* Header styling for application title */
