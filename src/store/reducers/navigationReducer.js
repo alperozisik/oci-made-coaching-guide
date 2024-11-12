@@ -1,3 +1,11 @@
+import journeyInitialState from './journeyInitialState';
+import journeyData from '../../journey.yaml';
+import { parseJourney } from '../../utils/journeyParser';
+
+// Parse the initial journey at the top of the reducer file
+const initialJourney = parseJourney(journeyData, journeyInitialState);
+const initialStep = initialJourney.length > 0 ? initialJourney[0] : null;
+
 const initialState = {
     history: [],
     currentStep: null,
@@ -29,14 +37,14 @@ const navigationReducer = (state = initialState, action) => {
                 return {
                     ...state,
                     history: [],
-                    currentStep: null,
+                    currentStep: initialStep, // Set to the initial step based on journey parsing
                 };
             }
             const updatedHistory = state.history.slice(0, -action.payload);
             return {
                 ...state,
                 history: updatedHistory,
-                currentStep: updatedHistory[updatedHistory.length - 1] || null,
+                currentStep: updatedHistory.length > 0 ? updatedHistory[updatedHistory.length - 1] : initialStep, // Fallback to the initial step
             };
         case 'NEXT_STEP':
             const { currentStep, journeyData, userSelection } = action.payload;
