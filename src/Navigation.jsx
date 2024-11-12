@@ -5,6 +5,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { parseJourney } from './utils/journeyParser';
 import store from './store';
 import './Navigation.css';
+import Breadcrumb from './Breadcrumb'; // Import Breadcrumb component
 
 // Import all potential components
 import PersonaSelection from './components/PersonaSelection';
@@ -60,22 +61,25 @@ const Navigation = ({ currentStep, onNavigate, guideData, journeyData }) => {
     console.log('Current Step:', currentStep);
 
     return (
-        <TransitionGroup>
-            {ComponentToRender && (
-                <CSSTransition key={currentStep.step} timeout={300} classNames="fade">
-                    <div className="navigation-step">
-                        <ComponentToRender
-                            currentStep={currentStep}
-                            onNavigate={onNavigate}
-                            guideData={guideData}
-                            goNextStep={goNextStep}
-                            goStepBack={goStepBack}
-                            journey={store.getState().journey}
-                        />
-                    </div>
-                </CSSTransition>
-            )}
-        </TransitionGroup>
+        <div>
+            <Breadcrumb history={store.getState().navigation.history} currentStep={currentStep} goStepBack={goStepBack} />
+            <TransitionGroup>
+                {ComponentToRender && (
+                    <CSSTransition key={currentStep.step} timeout={300} classNames="fade">
+                        <div className="navigation-step">
+                            <ComponentToRender
+                                currentStep={currentStep}
+                                onNavigate={onNavigate}
+                                guideData={guideData}
+                                goNextStep={goNextStep}
+                                goStepBack={goStepBack}
+                                journey={store.getState().journey}
+                            />
+                        </div>
+                    </CSSTransition>
+                )}
+            </TransitionGroup>
+        </div>
     );
 };
 

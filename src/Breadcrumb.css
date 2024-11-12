@@ -1,0 +1,21 @@
+.breadcrumb {
+    z-index: 200;
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    font-size: 1rem;
+}
+
+.breadcrumb-item.current {
+    font-weight: bold;
+    color: #1E3224; /* Pine 170 color */
+}
+
+.breadcrumb-separator {
+    margin: 0 5px;
+}
