@@ -1,0 +1,5 @@
+a.guide-link, 
+a.guide-link:visited {
+    color: #36677D;
+    text-decoration:underline;
+}

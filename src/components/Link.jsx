@@ -1,5 +1,6 @@
 import React from 'react';
 import guideData from '../guide.json'; // Import guide data for links
+import './Link.css'; // Import the CSS for styling
 
 const Link = ({ linkId }) => {
     // Find the link data by ID
@@ -13,7 +14,7 @@ const Link = ({ linkId }) => {
 
     // Render the <a> element with the appropriate link details
     return (
-        <a href={link.url} target="_blank" rel="noopener noreferrer">
+        <a href={link.url} target="_blank" rel="noopener noreferrer" className='guide-link'>
             {link.name}
         </a>
     );
