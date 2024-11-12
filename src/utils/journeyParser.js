@@ -137,9 +137,7 @@ export const parseText = (text, journeyState = {}, onlyText = false) => {
     }
 
     const parseLine = (line) => {
-        console.log("line:", line);
         let result = line.split(/(\${[^}]+})/g).map((part, index) => {
-            console.log("part:", part);
             // Check if the part matches a link placeholder pattern
             const linkMatch = part.match(/\${link:(\d+)}/);
             if (linkMatch) {
