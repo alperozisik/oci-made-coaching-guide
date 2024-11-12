@@ -1,0 +1,85 @@
+.topic-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic-selection-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+}
+
+.group-letter {
+    font-size: 3.5rem;
+    font-weight: bold;
+    opacity: 0.14;
+    margin-right: 10px;
+    margin: 8px;
+}
+
+.group-name {
+    font-size: 1.15rem;
+    color: #fff;
+    opacity: 0.85;
+    padding-top: 26px;
+    padding-right: 3px;
+}
+
+.topic-groups {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px; /* Adds padding to create space around the topic groups */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not affect total width */
+}
+
+.topic-group {
+    flex: 1;
+    min-width: 250px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px; /* Adds space at the bottom */
+    background-color: #fefefe;
+    box-sizing: border-box;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduces the gap between topic buttons */
+    margin-top: 10px;
+}
+
+.topic-button {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 0.9rem;
+    max-height: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevents text overflow */
+    text-align: center;
+}
+
+.topic-button:hover {
+    background-color: #e0e0e0; /* Slight color change on hover */
+}
