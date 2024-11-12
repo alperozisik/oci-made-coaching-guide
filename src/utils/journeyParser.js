@@ -11,43 +11,46 @@ import guideData from '../guide.json';
  * @param {Array} exceptionFlow - The exception flow steps to merge.
  * @returns {Array} - The merged journey flow.
  */
-const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow) => {
+const injectExceptionsIntoFlow = (defaultFlow, exceptionFlow, userSelection) => {
     // Merge steps with the same name, giving priority to exceptionFlow properties
     const mergedFlow = defaultFlow.map(step => {
         const matchingExceptionStep = exceptionFlow.find(excStep => excStep.step === step.step);
         if (matchingExceptionStep) {
-            // Merge with exception, only replace with non-empty properties from exception
-            return {
-                ...step,
-                ...Object.keys(matchingExceptionStep).reduce((merged, key) => {
-                    merged[key] = matchingExceptionStep[key] !== "" ? matchingExceptionStep[key] : step[key];
-                    return merged;
-                }, {})
-            };
+            // Check if the condition of the exception step is met
+            if (isConditionMet(matchingExceptionStep.condition, userSelection)) {
+                // Merge with exception, properties from exceptionFlow take priority
+                return {
+                    ...step,
+                    ...matchingExceptionStep, // Override properties from the exception
+                };
+            }
         }
         return step;
     });
 
     // Find additional steps in exceptionFlow that are not in defaultFlow
     const additionalSteps = exceptionFlow.filter(excStep => {
-        return !defaultFlow.some(defStep => defStep.step === excStep.step)
+        return !defaultFlow.some(defStep => defStep.step === excStep.step);
     });
 
-    // Handle the placement of additional steps using `insertAfter`
+    // Handle the placement of additional steps using `insertAfter` and check conditions
     additionalSteps.forEach(addStep => {
-        if (addStep.insertAfter) {
-            const index = mergedFlow.findIndex(step => step.step === addStep.insertAfter);
-            if (index !== -1) {
-                mergedFlow.splice(index + 1, 0, addStep);
+        if (isConditionMet(addStep.condition, userSelection)) {
+            if (addStep.insertAfter) {
+                const index = mergedFlow.findIndex(step => step.step === addStep.insertAfter);
+                if (index !== -1) {
+                    mergedFlow.splice(index + 1, 0, addStep);
+                } else {
+                    // If the specified insertAfter step is not found, add to the end
+                    mergedFlow.push(addStep);
+                }
             } else {
-                // If the specified insertAfter step is not found, add to the end
+                // If no insertAfter is provided, add to the end
                 mergedFlow.push(addStep);
             }
-        } else {
-            // If no insertAfter is provided, add to the end
-            mergedFlow.push(addStep);
         }
     });
+
     return mergedFlow;
 };
 
@@ -73,6 +76,8 @@ const isConditionMet = (condition, journeyState) => {
                 return "undefined";
             else if (typeof value === "string" && value.length === 0)
                 return '""';
+            else if(typeof value === "string")
+                return '"' + value + '"';
             else
                 return "" + value;
         });
@@ -107,7 +112,7 @@ export const parseJourney = (journeyData, userSelection) => {
 
     if (matchingException) {
         // Merge defaultFlow and matching exceptionFlow
-        return injectExceptionsIntoFlow(defaultFlow, matchingException.flow);
+        return injectExceptionsIntoFlow(defaultFlow, matchingException.flow, userSelection);
     }
 
     // If no exceptions match, return the default flow

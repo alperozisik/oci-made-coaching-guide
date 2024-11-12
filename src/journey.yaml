@@ -13,6 +13,7 @@ default:
     breadcrumbVisible: true
     component: TopicSelection
   - step: Category Selection
+    component: CategorySelection
     breadcrumbVisible: false
     details:
       - type: certification
@@ -45,7 +46,7 @@ exceptions:
       - step: AI Topic Check
         breadcrumbVisible: false
         insertAfter: Topic Selection
-        condition: ${topic} in ('Build with GenAI Services', 'Run on OCI AI Infrastructure')
+        condition: '["Build with GenAI Services", "Run on OCI AI Infrastructure"].includes(${topic})'
         component: Confirmation
         title: Have you completed Oracle Artificial Intelligence 2024 Sales Specialist certification?
         proceedButton: Yes
