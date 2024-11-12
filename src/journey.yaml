@@ -27,7 +27,20 @@ exceptions:
     condition: ${personaId} === 6
     flow:
       - step: Persona Confirmation
-        text: In this guide, Sales and Business Development professionals will learn about the range of offerings provided by Oracle...
+        text: In this guide, Sales and Business Development professionals will learn about the range of offerings provided by Oracle. They will gain an understanding of the key aspects of the tools provided by Oracle, equipping them with the knowledge needed to effectively sell these solutions. This includes insights into product features, benefits, and how they address customer needs. The guide aims to enhance their ability to articulate the value propositions of Oracle’s offerings and tailor their sales strategies accordingly.
+      - step: Sales certification
+        breadcrumbVisible: false
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: OCI Sales / Business Development Essentials
+        proceedButton: Yes
+        backButton: No
+        text: |
+          To work with OCI, you need to know the at least high-level basics of it. This will give you understanding of what you are selling as a sales person or what can you do on OCI as a Business Development person.
+          Everything on your role can be build on top of this knowledge.
+          
+          This role does not require understanding of OCI. If you have OCI Architect (Associate or Professional) Certificate, it is more than sufficient for this role.
+          {link:301}
       - step: AI Topic Check
         breadcrumbVisible: false
         insertAfter: Topic Selection
