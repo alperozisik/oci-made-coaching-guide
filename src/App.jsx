@@ -21,9 +21,9 @@ const App = () => {
 
     return (
         <div className="app-container">
+            <img src={oTag} alt="Oracle O-tag" className="o-tag" />
             <Navigation currentStep={currentStep} onNavigate={() => { /* Navigation logic */ }}
                 guideData={guideData} journeyData={journeyData} />
-            <img src={oTag} alt="Oracle O-tag" className="o-tag" />
         </div>
     );
 };
