@@ -40,9 +40,13 @@ const Navigation = ({ currentStep, onNavigate, guideData, journeyData }) => {
         }
     };
 
-    const goStepBack = (numberOfStepstoGoBack = -1) => {
-        if (numberOfStepsToGoBack > 0) {
+    const goStepBack = (numberOfStepsToGoBack = -1) => {
+        if (numberOfStepsToGoBack >= 0) {
             console.warn('Invalid step count: numberOfStepsToGoBack should be negative.');
+            return;
+        }
+        if (store.getState().navigation.history.length < Math.abs(numberOfStepsToGoBack)) {
+            console.warn('Invalid step count: Trying to go back more steps than available in history.');
             return;
         }
         dispatch({

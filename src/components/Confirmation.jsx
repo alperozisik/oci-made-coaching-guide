@@ -23,7 +23,7 @@ const icons = {
 };
 const defaultViewBox = "0 0 98 98";
 
-const Confirmation = ({ currentStep, onProceed, onBack, goNextStep, journey }) => {
+const Confirmation = ({ currentStep, onProceed, onBack, goNextStep, journey, goStepBack }) => {
     const { icon, title, text, proceedButton, backButton } = currentStep;
     const contextData = {
         icon, title, text, proceedButton, backButton,
@@ -40,7 +40,7 @@ const Confirmation = ({ currentStep, onProceed, onBack, goNextStep, journey }) =
     };
 
     const handleBack = () => {
-        goStepBack && goStepBack();
+        goStepBack && goStepBack(-1);
         onBack && onBack();
     }
 
