@@ -40,7 +40,7 @@ exceptions:
           Everything on your role can be build on top of this knowledge.
           
           This role does not require understanding of OCI. If you have OCI Architect (Associate or Professional) Certificate, it is more than sufficient for this role.
-          {link:301}
+          ${link:301}
       - step: AI Topic Check
         breadcrumbVisible: false
         insertAfter: Topic Selection
