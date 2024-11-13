@@ -1,40 +1,77 @@
 .link-list {
-    flex:1; /* Adjust the height as needed */
-    overflow-y: auto;
-    border: 1px solid #ccc; /* Subtle border for visual distinction */
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #f3f4f6; /* Slightly darker background to contrast with text */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 90px 0px 0px 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* max-height: calc(100vh - 20px); */
+    box-sizing: border-box;
 }
 
-.link-list ul {
-    list-style-type: none; /* Remove default bullet points */
-    padding-left: 0;
+.link-list .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    position: absolute;
+    top: 40px;
+    text-wrap: auto;
+    left: 10px;
+    right: 10px;
 }
+
+.link-list-effects {
+    display: flex;    
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.link-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 100%;
+    overscroll-behavior: contain;
+    scroll-padding-top: 50px;
+    scroll-padding-bottom: 50px;
+}
+
 
 .link-item {
-    margin-bottom: 12px;
-    padding: 8px 12px;
-    border-radius: 5px;
-    background-color: #ffffff; /* White background for contrast */
-    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: calc(100% - 8vw);
+    padding: 5px;
 }
 
 .link-item:hover {
-    background-color: #e7f3e9; /* Light green for hover to match Pine theme */
+    background-color: rgba(54, 103, 125, 0.1);
+    border-radius: 5px;
+}
+.top-gradient, .bottom-gradient {
+    width: 100%;
+    height: 30px;
+    pointer-events: none;
+    position: absolute;
+    border: none;
+    display: none;
+}
+.top-gradient {
+    background: linear-gradient(to top, rgba(255, 0, 255, 0.0) 0%, rgba(255, 0, 255, 0.1) 100% );
 }
 
-.link-list li:last-child {
-    margin-bottom: 0; /* Remove margin from the last item */
+/* Alt div için CSS */
+.bottom-gradient {
+    background: linear-gradient(to top, white, transparent);
 }
 
-.link-item a {
-    color: #36677D; /* Consistent link color */
-    text-decoration: none;
-    font-weight: 500; /* Medium weight for readability */
-}
-
-.link-item a:hover {
-    text-decoration: underline; /* Underline on hover */
-}

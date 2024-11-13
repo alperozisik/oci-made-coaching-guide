@@ -3,6 +3,7 @@ import './LinkList.css';
 import Link from './Link';
 import guideData from '../guide.json';
 import store from '../store';
+import UserSelectionPanel from './UserSelectionPanel';
 
 /**
  * Component that displays a list of links.
@@ -11,10 +12,11 @@ import store from '../store';
  */
 const LinkList = () => {
     const journeyUserSelection = store.getState().journey;
-    const { personaId, topic, category } = journeyUserSelection;
+    const { personaId, topic, category, personaName } = journeyUserSelection;
     const isCertification = category === 'Certification';
     const allLinks = guideData.links;
     const links = allLinks.filter(link => {
+        return true; //DEBUG: Remove this line
         return link.personas.includes(personaId) && link.topics.includes(topic) && !!link.certification === isCertification;
     });
 
@@ -25,13 +27,21 @@ const LinkList = () => {
 
     return (
         <div className="link-list">
-            <ul>
-                {links.map((link, index) => (
-                    <li key={index} className="link-item">
-                        <Link linkId={link.id} />
-                    </li>
-                ))}
-            </ul>
+            <div className="header">
+                Displaying useful links for <strong>{personaName}</strong>, <strong>{topic}</strong>, <strong>{category}</strong>
+            </div>
+            <UserSelectionPanel />
+            <div className="link-list-effects">
+                <div className="top-gradient"></div>
+                <div className='link-list-container'>
+                    {links.map((link, index) => (
+                        <div key={index} className="link-item">
+                            <Link linkId={link.id} />
+                        </div>
+                    ))}
+                </div>
+                <div className="bottom-gradient"></div>
+            </div>
         </div>
     );
 };
