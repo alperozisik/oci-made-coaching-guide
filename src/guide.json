@@ -7,8 +7,8 @@
       "valid": 1,
       "certification": 1,
       "timestamp": "2024-08-11 21:46:32",
-      "topics": [],
-      "personas": []
+      "topics": ["Build with GenAI and ML in Data Platform"],
+      "personas": [6]
     },
     {
       "id": 11,

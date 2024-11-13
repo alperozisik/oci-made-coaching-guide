@@ -14,14 +14,15 @@ default:
     component: TopicSelection
   - step: Category Selection
     component: CategorySelection
-    breadcrumbVisible: false
+    breadcrumbVisible: true
     details:
       - type: certification
       - type: learning
-    condition: |
+    notes: |
       if both categories are empty, skip to the next step
-  - step: Link List
+  - step: Links
     breadcrumbVisible: true
+    component: LinkList
 
 exceptions:
   - persona: Sales / Business Development

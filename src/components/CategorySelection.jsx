@@ -1,34 +1,28 @@
-import React, { useEffect } from 'react';
-import './CategorySelection.css';
+// CategorySelection.jsx
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import './CategorySelection.css'; // Import the CSS for styling
+import LearningIcon from '../images/learning.svg'; // Import SVG icon for learning
+import CertificationIcon from '../images/certification.svg'; // Import SVG icon for certification
 
-const CategorySelection = ({ links, persona, topic, onNavigate }) => {
-    // Separate links into 'certification' and 'learning' categories
-    const certificationLinks = links.filter(link => link.type === 'certification');
-    const learningLinks = links.filter(link => link.type !== 'certification');
 
-    useEffect(() => {
-        // Automatically navigate to the next step if one of the categories is empty
-        if (certificationLinks.length === 0 || learningLinks.length === 0) {
-            onNavigate({ step: 'Link List' }); // Navigate to the next step
-        }
-    }, [certificationLinks, learningLinks, onNavigate]);
-
+const CategorySelection = ({ goNextStep }) => {
+    const dispatch = useDispatch();
+    const handleCategorySelect = category => {
+        dispatch({ type: 'SET_CATEGORY', payload: category });
+        goNextStep();
+    };
     return (
         <div className="category-selection">
-            <h2>Select a Category</h2>
-            <div className="category-container">
-                {/* Display the certification category button if there are items */}
-                {certificationLinks.length > 0 && (
-                    <button onClick={() => onNavigate({ step: 'Link List', category: 'certification' })}>
-                        Certification ({certificationLinks.length})
-                    </button>
-                )}
-                {/* Display the learning category button if there are items */}
-                {learningLinks.length > 0 && (
-                    <button onClick={() => onNavigate({ step: 'Link List', category: 'learning' })}>
-                        Learning ({learningLinks.length})
-                    </button>
-                )}
+            <div className="category-options">
+                <div className="category-item" onClick={() => handleCategorySelect('Learning')}>
+                    <LearningIcon alt="Learning" className="category-icon" />
+                    <p>Learning</p> {/* Category label */}
+                </div>
+                <div className="category-item" onClick={() => handleCategorySelect('Certification')}>
+                    <CertificationIcon alt="Certification" className="category-icon" />
+                    <p>Certification</p> {/* Category label */}
+                </div>
             </div>
         </div>
     );

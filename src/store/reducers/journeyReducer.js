@@ -8,7 +8,7 @@ const journeyReducer = (state = initialState, action) => {
             if (action.payload && typeof action.payload.id !== 'undefined') {
                 personaId = action.payload.id;
             }
-            if(action.payload && typeof action.payload.persona !== 'undefined') {
+            if (action.payload && typeof action.payload.persona !== 'undefined') {
                 personaName = action.payload.persona;
             }
             return {
@@ -20,6 +20,11 @@ const journeyReducer = (state = initialState, action) => {
             return {
                 ...state,
                 topic: action.payload,
+            };
+        case 'SET_CATEGORY':
+            return {
+                ...state,
+                category: action.payload,
             };
         case 'UPDATE_JOURNEY_STATE':
             return {
