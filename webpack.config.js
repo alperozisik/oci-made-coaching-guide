@@ -8,6 +8,8 @@ module.exports = (env) => {
     const isSingle = env.BUILD_MODE === 'Single';
     const isDebug = !env.BUILD_MODE;
     console.log('Build mode:', { isSingle, isDebug });
+
+    console.log('env build mode:', env.BUILD_MODE);
     return {
         entry: './src/index.js',
         output: {
@@ -17,6 +19,13 @@ module.exports = (env) => {
         },
         mode: isDebug ? 'development' : 'production',
         devtool: 'source-map',
+        devServer: {
+            compress: true,
+            port: 3100,
+            devMiddleware: {
+                publicPath: '/',
+            },
+        },
         module: {
             rules: [
                 {
@@ -39,25 +48,24 @@ module.exports = (env) => {
                         },
                     ],
                 },
-                {
-                    test: /\.(png|jpg|jpeg|gif)$/i,
-                    type: 'asset/resource', // Handles image files
-                    generator: {
-                        publicPath: './',
-                    },
-                },
+                /*{
+                                    test: /\.(png|jpg|jpeg|gif)$/i,
+                                    type: 'asset/resource', // Handles image files
+                                    generator: {
+                                        publicPath: './',
+                                    },
+                                }, */
                 {
                     test: /\.yaml$/i,
                     use: 'yaml-loader',
                 },
                 {
-                    test: /\.(ttf|woff|woff2|eot|otf)$/,
+                    test: /\.(ttf|woff|woff2|eot|otf|png|jpg|jpeg|gif)$/,
                     use: [
                         {
                             loader: 'url-loader',
                             options: {
-                                limit: isSingle ? 2000000 : 8192,
-                                name: 'fonts/[name].[hash].[ext]',
+                                limit: isSingle ? 100000000 : 0,
                                 publicPath: './',
                             },
                         },
