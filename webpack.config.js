@@ -14,6 +14,7 @@ module.exports = (env) => {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js',
             publicPath: isDebug ? '/' : './',
+            assetModuleFilename: '[name].[contenthash][ext]'
         },
         mode: isDebug ? 'development' : 'production',
         devtool: 'source-map',
@@ -43,6 +44,7 @@ module.exports = (env) => {
                     test: /\.(png|jpg|jpeg|gif)$/i,
                     type: 'asset/resource', // Handles image files
                     generator: {
+                        filename: '[name].[contenthash][ext]',
                         publicPath: './',
                     },
                 },
@@ -57,7 +59,7 @@ module.exports = (env) => {
                             loader: 'url-loader',
                             options: {
                                 limit: isSingle ? 2000000 : 8192,
-                                name: 'fonts/[name].[hash].[ext]',
+                                name: '[name].[contenthash].[ext]',
                                 publicPath: './',
                             },
                         },
