@@ -7,8 +7,8 @@
       "valid": 1,
       "certification": 1,
       "timestamp": "2024-08-11 21:46:32",
-      "topics": ["Build with GenAI and ML in Data Platform"],
-      "personas": [6]
+      "topics": [],
+      "personas": []
     },
     {
       "id": 11,
@@ -2652,5 +2652,21 @@
       "id": 8,
       "persona": "Cloud Engineer / Developer"
     }
-  ]
+  ],
+  "successors": {
+    "1": 853,
+    "2": 855,
+    "3": 852,
+    "4": 856,
+    "6": 857,
+    "7": 858,
+    "8": 859,
+    "9": 860,
+    "10": 861,
+    "12": 852,
+    "36": 852,
+    "38": 862,
+    "51": 863,
+    "88": 389
+  }
 }

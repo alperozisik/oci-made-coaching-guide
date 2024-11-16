@@ -4,7 +4,10 @@ import './Link.css'; // Import the CSS for styling
 
 const Link = ({ linkId }) => {
     // Find the link data by ID
-    const link = guideData.links.find(link => link.id === parseInt(linkId));
+    let finalLinkId = parseInt(linkId);
+    finalLinkId = guideData.successors[finalLinkId] || finalLinkId;
+
+    const link = guideData.links.find(link => link.id === parseInt(finalLinkId));
 
     if (!link) {
         // Log an error to the console if the link is not found
