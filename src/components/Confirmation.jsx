@@ -11,6 +11,7 @@ import Persona6Icon from '../images/persona6.svg';
 import Persona7Icon from '../images/persona7.svg';
 import Persona8Icon from '../images/persona8.svg';
 import CertificationIcon from '../images/certification.svg';
+import LearningIcon from '../images/learning.svg';
 
 const icons = {
     "persona1.svg": Persona1Icon,
@@ -22,6 +23,7 @@ const icons = {
     "persona7.svg": Persona7Icon,
     "persona8.svg": Persona8Icon,
     "certification.svg": CertificationIcon,
+    "learning.svg": LearningIcon,
 };
 const defaultViewBox = "0 0 98 98";
 
