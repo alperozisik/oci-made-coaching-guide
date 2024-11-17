@@ -25,6 +25,45 @@ default:
     component: LinkList
 
 exceptions:
+  - persona: Cloud Engineer / Developer
+    condition: ${personaId} === 8
+    flow:
+      - step: Persona Confirmation
+        text: Cloud Engineers and Developers design, implement, and manage cloud-native solutions. They work with cloud platforms like AWS, Azure, or Oracle Cloud to deploy scalable and secure applications. Their responsibilities include cloud architecture design, automation, and continuous integration/continuous deployment (CI/CD). They ensure that cloud infrastructure meets performance and security standards. Software Developers within this role focus on creating and optimizing applications specifically for cloud-native environments, ensuring they are scalable, efficient, and secure.
+      - step: Architect certification
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: Have you completed OCI Architect Associate?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          OCI Architect Associate is teaching OCI components and essentials end-to-end, being a starting point for technical users.
+          OCI is always bringing new components, improving existing components. It it essential for OCI users to stay up-to-date.
+          If you have Architect Professional certificate, it is better than Associate level; consider you already achieved that level.
+          Foundation alone is not sufficient for this level.
+          ${link:852}
+  - persona: Pre-sales / Architect
+    condition: ${personaId} === 7
+    flow:
+      - step: Persona Confirmation
+        text: Pre-sales professionals and Architects work together to understand client requirements and design tailored solutions. They conduct needs assessments, create technical proposals, and demonstrate product capabilities. These roles require strong technical knowledge, excellent communication skills, and the ability to translate complex technical details into business value. Their goal is to ensure client satisfaction and support the sales process. A key aspect of their work is promoting and implementing cloud-native solutions, leveraging the latest technologies and best practices in cloud computing.
+      - step: Architect certification
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: Have you completed OCI Architect Associate or Professional?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          OCI Architect Associate is teaching OCI components and essentials end-to-end, being a starting point for technical users.
+          To design solutions on OCI, you need to have a good technical understanding of the components, how to use them, how to position them. Without proper knowledge of OCI, you might not able to demonstrate best practices.
+
+          OCI is always bringing new components, improving existing components. It it essential for OCI users to stay up-to-date.
+          If you have Architect Professional certificate, it is better than Associate level; consider you already achieved that level.
+          Foundation alone is not sufficient for this role.
+          ${link:852}
+          ${link:862}
   - persona: Sales / Business Development
     condition: ${personaId} === 6
     flow:
@@ -34,16 +73,18 @@ exceptions:
         breadcrumbVisible: false
         insertAfter: Persona Confirmation
         component: Confirmation
-        title: OCI Sales / Business Development Essentials
-        proceedButton: Yes
+        title: Have you completed the Oracle Cloud Infrastructure Sales Specialist or OCI Foundations Associate certification?
+        proceedButton: Yes, I have a valid certification
         backButton: No
         icon: certification.svg
         text: |
-          To work with OCI, you need to know the at least high-level basics of it. This will give you understanding of what you are selling as a sales person or what can you do on OCI as a Business Development person.
-          Everything on your role can be build on top of this knowledge.
-          
-          This role does not require understanding of OCI. If you have OCI Architect (Associate or Professional) Certificate, it is more than sufficient for this role.
+          To effectively work with Oracle Cloud Infrastructure (OCI), having a foundational understanding is crucial. This baseline knowledge empowers you to comprehend what you are promoting as a Sales Professional or what potential opportunities you can develop as a Business Development expert. Building upon this core understanding can enhance all aspects of your role and contribute to your success.
+
+          While an in-depth technical understanding of OCI is not mandatory for this role, holding an OCI Architect (Associate or Professional) Certification would exceed the baseline requirements and significantly benefit your proficiency.
+
+          Consider obtaining one of the following certifications to reinforce your expertise:
           ${link:301}
+          ${link:853}
       - step: AI Topic Check
         breadcrumbVisible: false
         insertAfter: Topic Selection
@@ -54,3 +95,94 @@ exceptions:
         backButton: No
         text: |
           OCI AI Sales Specialist certification is contains key information about Oracle's AI offerings and how they can be used to solve customer problems...
+  - persona: DevOps
+    condition: ${personaId} === 1
+    flow:
+      - step: Persona Confirmation
+        text: DevOps professionals bridge the gap between development and operations, focusing on automation, integration, and continuous delivery. They use tools like Jenkins, Docker, and Kubernetes to streamline workflows and enhance productivity. Their goal is to create a seamless, automated pipeline for software development and deployment. They work closely with developers and IT operations to ensure efficient and reliable software releases. DevOps professionals are crucial in promoting cloud-native practices, ensuring that applications are built and deployed with cloud-native principles in mind.
+      - step: Architect certification
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: Have you completed OCI Architect Associate?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          DevOps are to utilize Cloud resources as much as possible. To have a correct fit, to be able to solve underlying problems, to allocate proper resources for best utilization knowing the cloud infrastructure is essential.
+
+          OCI is always bringing new components, improving existing components. It it essential for OCI users to stay up-to-date.
+          If you have Architect Professional certificate, it is better than Associate level; consider you already achieved that level.
+          Foundation alone is not sufficient for this role.
+          ${link:852}
+      - step: Cloud Ops certification
+        insertAfter: Architect certification
+        component: Confirmation
+        title: Have you completed OCI Cloud Operations Professional?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          DevOps are also deploying / managing cloud resources programmatically as much as possible. Cloud Operations Professional topic is to deploy core resources in OCI using various methods, including the OCI Command Line Interface (CLI) and Infrastructure as Code (IaC). Additionally, it encompasses configuring compute instances, optimizing cost and performance, implementing reliability and business continuity best practices, administering identity and access management policies, and effectively utilizing OCI's observability platform.
+          ${link:627}
+  - persona: Data Analyst
+    condition: ${personaId} === 5
+    flow:
+      - step: Persona Confirmation
+        text: Data Analysts specialize in interpreting data to help organizations make informed business decisions. They use statistical tools, BI software, and data visualization techniques to analyze data sets and present insights. These professionals are adept at identifying trends, patterns, and anomalies in data. Their work often supports strategic planning, operational improvements, and performance tracking.
+  - persona: Data Scientist
+    condition: ${personaId} === 4
+    flow:
+      - step: Persona Confirmation
+        text: Data Scientists use advanced analytics, machine learning, and statistical models to extract insights from complex data sets. They develop predictive models and algorithms to solve business problems and drive innovation. Their work involves data cleaning, feature engineering, model training, and validation. Data Scientists collaborate with various departments to implement data-driven solutions and enhance decision-making processes.
+      - step: Architect certification
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: Have you completed OCI Data Science Professional?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          OCI Data Science Professional is the core starting point that covers every Data Scientist should have to perform Data Scientist tasks with OCI. OCI Data Science service that supports the full machine learning life cycle, enabling data scientists to rapidly build, train, deploy, and manage machine learning models using Python and open source libraries. Users work in a familiar JupyterLab notebook interface, track and store their models in a model catalog, and operationalize them on managed infrastructure using best MLOps practices.
+          ${link:861}
+  - persona: Systems Admin / Security Engineer
+    condition: ${personaId} === 3
+    flow:
+      - step: Persona Confirmation
+        text: Systems Admins and Security Engineers ensure the stability, security, and performance of IT systems. They manage hardware, software, networks, and implement security measures to protect against threats. Their duties include system monitoring, user management, security audits, and incident response. They play a vital role in maintaining the overall health and security of the organization’s IT infrastructure.
+      - step: Architect certification
+        insertAfter: Persona Confirmation
+        component: Confirmation
+        title: Have you completed OCI Architect Associate?
+        proceedButton: Yes, I have a valid certification
+        backButton: No
+        icon: certification.svg
+        text: |
+          OCI Architect Associate is teaching OCI components and essentials end-to-end, being a starting point for technical users.
+          To design solutions on OCI, you need to have a good technical understanding of the components, how to use them, how to position them. Without proper knowledge of OCI, you might not able to demonstrate best practices.
+
+          OCI is always bringing new components, improving existing components. It it essential for OCI users to stay up-to-date.
+          If you have Architect Professional certificate, it is better than Associate level; consider you already achieved that level.
+          Foundation alone is not sufficient for this role.
+          ${link:852}
+      - step: Security Trainings
+        insertAfter: Architect certification
+        component: Confirmation
+        title: Have you completed necessary trainings?
+        proceedButton: Proceed
+        backButton: No
+        icon: learning.svg
+        text: |
+          Both <b>System Admins</b> and <b>Security Engineers</b> rely on similar skill sets in their roles.
+
+          <b>For Security Engineers,</b> it is highly recommended to start with the <b>OCI Security Professional</b> certification. This will equip you with essential knowledge to effectively address security challenges. While other certifications are optional, they can further enhance your expertise.
+
+          <b>For System Admins,</b> monitoring systems to proactively resolve issues is a key responsibility. Completing the <b>OCI Observability Professional</b> certification can be highly beneficial. For those focusing on security patches and related issues, the <b>OCI Security Professional</b> certification is an excellent starting point.
+
+          Explore the following certifications to enhance your skills:
+          ${link:863}
+          ${link:860}
+  - persona: Data Admins (DBA)
+    condition: ${personaId} === 2
+    flow:
+      - step: Persona Confirmation
+        text: Database Administrators (DBAs) are responsible for managing and maintaining database systems to ensure their performance, security, and reliability. They will be using key products such as Oracle Database and MySQL database, focusing on cloud-based databases. DBAs handle database design, implementation, configuration, backup, recovery, and troubleshooting. They play a crucial role in optimizing database performance and ensuring data integrity. Working closely with developers and other IT staff, they support data needs and implement best practices in database management.
