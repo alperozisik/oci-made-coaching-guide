@@ -17,11 +17,11 @@ const CategorySelection = ({ goNextStep }) => {
             <div className="category-options">
                 <div className="category-item" onClick={() => handleCategorySelect('Learning')}>
                     <LearningIcon alt="Learning" className="category-icon" />
-                    <p>Learning</p> {/* Category label */}
+                    <p>Learning / Training</p> {/* Category label */}
                 </div>
                 <div className="category-item" onClick={() => handleCategorySelect('Certification')}>
                     <CertificationIcon alt="Certification" className="category-icon" />
-                    <p>Certification</p> {/* Category label */}
+                    <p>Assessment / Certification</p> {/* Category label */}
                 </div>
             </div>
         </div>
